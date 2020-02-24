@@ -9,12 +9,15 @@
 {% block content %}
     <div class="container">
         <div class="container">
-            <h1 class="center-align">Sign Up</h1>
-            <form method="POST">
-                {% csrf_token %}
-                {{ form|materializecss }}
-                <button type="submit" name="_submit" class="btn">Submit</button>
-            </form>
+            <div class="container">
+                <h1 class="center-align">Sign Up</h1>
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form|materializecss }}
+                    <button type="submit" name="_submit" class="btn waves-effect waves-teal">Sign Up</button>
+                </form>
+                <p>Have an account? <a href="/accounts/login">Sign In</a>.</p>
+            </div>
         </div>
     </div>
 {% endblock %}
