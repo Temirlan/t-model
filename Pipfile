@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 django = "*"
 psycopg2 = "*"
+django-registration = "*"
+jinja2 = "*"
+django-material = "*"
+django-materialize = "*"
+django-materializecss-form = "*"
 
 [requires]
 python_version = "3.7"
