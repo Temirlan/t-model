@@ -1,9 +1,61 @@
 {% extends 'navbar.html' %}
+{% load tz %}
 
 {% block title %}
-   Documents
+Documents
 {% endblock title %}
 
 {% block section %}
-    <h1>Hello</h1>
+<div class="container">
+    <h3>Documents</h3>
+    <table class="striped centered teal lighten-3">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Date of download</th>
+                <th>Loader</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for document in aPaginator %}
+            <tr>
+                <td>{{ document.id }}</td>
+                <td>{{ document.name }}</td>
+                <td>{{ document.author }}</td>
+                {% timezone "Asia/Almaty" %}
+                <td>{{ document.created|date:"M d, Y"}}</td>
+                {% endtimezone %}
+                <td>{{ document.user.username }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <ul class="pagination center-align">
+        {% if aPaginator.has_previous %}
+        <li><a href="?page=1"><i class="material-icons">fast_rewind</i></a></li>
+        <li><a href="?page={{ page_obj.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+        {% endif %}
+        <li>
+            <a>
+                Page
+            </a>
+        <li class="active teal darken-4">
+            <a>{{ aPaginator.number }}</a>
+        </li>
+        <li>
+            <a> of {{ aPaginator.paginator.num_pages }}.</a>
+        </li>
+        </li>
+        {% if aPaginator.has_next %}
+        <li class="waves-effect"><a href="?page={{ aPaginator.next_page_number }}"><i
+                    class="material-icons">chevron_right</i></a></li>
+        <li class="waves-effect"><a href="?page={{ aPaginator.paginator.num_pages }}"><i
+                    class="material-icons">fast_forward</i></a></li>
+        {% endif %}
+    </ul>
+</div>
+
 {% endblock section %}

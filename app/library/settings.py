@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'materialize',
     'materializecssform',
+    'document'
 ]
 
 MIDDLEWARE = [
@@ -128,5 +129,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, '')
+MEDIA_URL = '/media/images/'
 
 LOGIN_REDIRECT_URL= '/documents'
