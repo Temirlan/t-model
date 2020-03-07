@@ -6,6 +6,10 @@ verify_ssl = true
 [dev-packages]
 django-debug-toolbar = "*"
 pdb = "*"
+pylint = "*"
+pep8 = "*"
+autopep8 = "*"
+yapf = "*"
 
 [packages]
 django = "*"
@@ -15,7 +19,7 @@ jinja2 = "*"
 django-material = "*"
 django-materialize = "*"
 django-materializecss-form = "*"
-django-debug-toolbar = "*"
+pylint-django = "*"
 
 [requires]
 python_version = "3.7"
