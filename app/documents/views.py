@@ -1,3 +1,4 @@
+from django.forms.models import model_to_dict
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
