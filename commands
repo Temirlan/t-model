@@ -3,3 +3,9 @@ python manage.py migrate
 python manage.py makemigrations
 pipenv run pip freeze  > requirements.txt
 python manage.py startapp <name folder>
+pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
+
+
+"python.linting.pylintArgs": [
+    "--indent-string=\"  \""
+]
