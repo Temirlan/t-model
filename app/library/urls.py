@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.contrib.auth import views
 from django_registration.forms import RegistrationFormUniqueEmail
 from django_registration.backends.one_step.views import RegistrationView
+from django.conf import settings
 
 from django.urls import path, include
 
@@ -30,3 +31,9 @@ urlpatterns = [
     path('documents/', include('documents.urls')),
     path('document/', include('document.urls')),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns

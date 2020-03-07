@@ -4,6 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+django-debug-toolbar = "*"
+pdb = "*"
 
 [packages]
 django = "*"
@@ -13,6 +15,7 @@ jinja2 = "*"
 django-material = "*"
 django-materialize = "*"
 django-materializecss-form = "*"
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.7"

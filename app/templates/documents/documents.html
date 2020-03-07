@@ -22,7 +22,7 @@ Documents
             {% for document in aPaginator %}
             <tr>
                 <td>{{ document.id }}</td>
-                <td>{{ document.name }}</td>
+                <td><a href="/document/{{document.id}}">{{ document.name }}</a></td>
                 <td>{{ document.author }}</td>
                 {% timezone "Asia/Almaty" %}
                 <td>{{ document.created|date:"M d, Y"}}</td>

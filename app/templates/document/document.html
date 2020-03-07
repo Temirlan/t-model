@@ -5,7 +5,13 @@ Document
 {% endblock title %}
 
 {% block section %}
-<h1>Document</h1>
+<div class="container">
+    <h3>{{doc.name|capfirst}}</h3>
+    <p>Author: {{doc.author|capfirst}}</p>
+    <p>Loader: {{doc.user.username|capfirst}}</p>
+    <p>Filename: {{filename|capfirst}}</p>
+    <p>Extension: {{file_ext}}</p>
+</div>
 
 
 {% endblock section %}
