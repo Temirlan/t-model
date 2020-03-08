@@ -4,6 +4,7 @@ import os.path
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 
+from utils.parser.pdf import PdfParser
 from .models import Document
 from .forms import DocumentForm
 
@@ -20,6 +21,12 @@ def document(request, doc_id):
   doc = get_object_or_404(Document, pk=doc_id)
   path, file_ext = os.path.splitext(doc.file.path)
   filename = os.path.basename(path)
+
+  if request.GET.get('parser'):
+    if file_ext == '.pdf' and doc.is_parsed == False:
+      parser = PdfParser(doc.file.path)
+      text_dict = parser.extract_text()
+      print(text_dict)
 
   return render(request, 'document/document.html', {
       'doc': doc,

@@ -20,6 +20,8 @@ django-material = "*"
 django-materialize = "*"
 django-materializecss-form = "*"
 pylint-django = "*"
+fitz = "*"
+pymupdf = "*"
 
 [requires]
 python_version = "3.7"

@@ -15,6 +15,7 @@ class Document(models.Model):
   file = models.FileField(upload_to="media/files/%Y/%m/%d",
                           validators=[validate_file_extension],
                           max_length=600)
+  is_parsed = models.BooleanField("is_parsed", default=False)
 
 
 class PdfDocument(models.Model):

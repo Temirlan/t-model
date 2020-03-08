@@ -11,6 +11,10 @@ Document
     <p>Loader: {{doc.user.username|capfirst}}</p>
     <p>Filename: {{filename|capfirst}}</p>
     <p>Extension: {{file_ext}}</p>
+
+    {% if doc.is_parsed == False %}
+    <a href="?parser=true">Parser</a>
+    {% endif %}
 </div>
 
 
