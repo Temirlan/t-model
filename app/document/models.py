@@ -28,3 +28,4 @@ class PdfDocument(models.Model):
                           max_length=500,
                           null=True)
   metadata = JSONField(default=dict)
+  freq_items = JSONField(default=dict)

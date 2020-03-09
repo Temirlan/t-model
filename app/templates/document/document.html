@@ -15,6 +15,11 @@ Document
     {% if doc.is_parsed == False %}
     <a id="parser-link" href="?parser=true" onclick="return disableLink(this);">Parser</a>
     {% endif %}
+
+    {% if doc.is_parsed == True %}
+    <h3>{{ chartTitle|safe }}</h3>
+    <div id="chart-1">{{ output|safe }}</div>
+    {% endif %}
 </div>
 
 
