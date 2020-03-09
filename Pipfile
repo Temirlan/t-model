@@ -24,6 +24,10 @@ fitz = "*"
 pymupdf = "*"
 django-livereload-server = "*"
 django-clear-cache = "*"
+codecs = "*"
+nltk = "*"
+pymystem3 = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"
