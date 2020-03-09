@@ -22,6 +22,8 @@ django-materializecss-form = "*"
 pylint-django = "*"
 fitz = "*"
 pymupdf = "*"
+django-livereload-server = "*"
+django-clear-cache = "*"
 
 [requires]
 python_version = "3.7"

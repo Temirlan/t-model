@@ -3,9 +3,10 @@ import os.path
 # from django.forms.models import model_to_dict, fields_for_model
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
+from django.core.files import File
 
 from utils.parser.pdf import PdfParser
-from .models import Document
+from .models import Document, PdfDocument
 from .forms import DocumentForm
 
 
@@ -23,10 +24,17 @@ def document(request, doc_id):
   filename = os.path.basename(path)
 
   if request.GET.get('parser'):
-    if file_ext == '.pdf' and doc.is_parsed == False:
+    if not doc.is_parsed and file_ext == '.pdf':
       parser = PdfParser(doc.file.path)
-      text_dict = parser.extract_text()
-      print(text_dict)
+      metadata = parser.extract_text()
+      file_object = open('temp/parse_file/text.txt', 'rb')
+      file = File(file_object)
+
+      pdf = PdfDocument(doc=doc, metadata=metadata, text=file)
+      pdf.save()
+
+      doc.is_parsed = True
+      doc.save()
 
   return render(request, 'document/document.html', {
       'doc': doc,
