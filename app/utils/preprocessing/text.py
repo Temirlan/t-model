@@ -5,6 +5,7 @@ import nltk
 import numpy as np
 # from nltk.corpus import brown
 import pymystem3
+from collections import OrderedDict
 
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -44,7 +45,7 @@ def save_bag_of_words(path: str):
   return freq.items()
 
 
-def prepare_coords(coords: dict) -> dict:
+def prepare_coords(coords: dict, title_doc) -> OrderedDict:
   """ Prepare coords for display graph """
   temp_c = []
   temp_d = []
@@ -66,9 +67,19 @@ def prepare_coords(coords: dict) -> dict:
 
   x_coord = x_coord[0:10]
   y_coord = y_coord[0:10]
-  y_pos = np.arange(1, len(x_coord) + 1, 1)
 
-  print(x_coord)
-  print(y_coord)
-  print(y_pos)
-  return {'x': x_coord, 'y': y_coord, 'pos': y_pos}
+  data_source = OrderedDict()
+  chart_config = OrderedDict()
+
+  chart_config["caption"] = "Частоты слов в документе " + title_doc.capitalize(
+  )
+  chart_config["yAxisName"] = "Количество слов"
+  chart_config["theme"] = "gammel"
+
+  data_source["chart"] = chart_config
+  data_source["data"] = []
+
+  for key, value in zip(y_coord, x_coord):
+    data_source["data"].append({"label": key, "value": value})
+
+  return data_source

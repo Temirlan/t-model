@@ -17,7 +17,33 @@ Document
     {% endif %}
 
     {% if doc.is_parsed == True %}
-    <h3>{{ chartTitle|safe }}</h3>
+    <h4>Document details:</h4>
+    <ul class="tabs blue-grey darken-4">
+        <li class="tab col s3"><a class="active" href="#test1">Metadata</a></li>
+        <li class="tab col s3"><a href="#test2">Content</a></li>
+        <li class="tab col s3"><a href="#test3">Link</a></li>
+    </ul>
+    <div class="row">
+        <div id="test1" class="col s12">
+            {% if pdf.metadata.title %}<p>Title: {{pdf.metadata.title}}</p>{% endif %}
+            {% if pdf.metadata.author %}<p>Author: {{pdf.metadata.author}}</p>{% endif %}
+            {% if pdf.metadata.format %}<p>Format: {{pdf.metadata.format}}</p>{% endif %}
+            {% if pdf.metadata.creator %}<p>Creator: {{pdf.metadata.creator}}</p>{% endif %}
+            {% if pdf.metadata.keywords %}<p>Keywords: {{pdf.metadata.keywords}}</p>{% endif %}
+            {% if pdf.metadata.producer %}<p>Producer: {{pdf.metadata.producer}}</p>{% endif %}
+            {% if pdf.metadata.pageCount %}<p>Page count: {{pdf.metadata.pageCount}}</p>{% endif %}
+            {% if count_words %}<p>Count words: {{count_words}}</p>{% endif %}
+        </div>
+        <div id="test2" class="col s12">
+            <ul>
+                {% for c in pdf.metadata.content %}
+                <li>{{c|join:", "}} </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div id="test3" class="col s12">links</div>
+    </div>
+
     <div id="chart-1">{{ output|safe }}</div>
     {% endif %}
 </div>
