@@ -1,4 +1,5 @@
 """ Create your models here. """
+from django.contrib.postgres.fields import JSONField
 from django.db import models
 from django.contrib.auth import get_user_model
 from .validators import validate_file_extension
@@ -15,6 +16,7 @@ class Document(models.Model):
   file = models.FileField(upload_to="media/files/%Y/%m/%d",
                           validators=[validate_file_extension],
                           max_length=600)
+  is_parsed = models.BooleanField("is_parsed", default=False)
 
 
 class PdfDocument(models.Model):
@@ -22,3 +24,8 @@ class PdfDocument(models.Model):
   doc = models.ForeignKey(Document,
                           verbose_name="document",
                           on_delete=models.CASCADE)
+  text = models.FileField(upload_to="media/texts/%Y/%m/%d",
+                          max_length=500,
+                          null=True)
+  metadata = JSONField(default=dict)
+  freq_items = JSONField(default=dict)

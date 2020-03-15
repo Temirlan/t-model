@@ -36,7 +36,7 @@ Documents
     <ul class="pagination center-align">
         {% if aPaginator.has_previous %}
         <li><a href="?page=1"><i class="material-icons">fast_rewind</i></a></li>
-        <li><a href="?page={{ page_obj.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+        <li><a href="?page={{ aPaginator.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
         {% endif %}
         <li>
             <a>

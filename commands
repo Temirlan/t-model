@@ -4,7 +4,8 @@ python manage.py makemigrations
 pipenv run pip freeze  > requirements.txt
 python manage.py startapp <name folder>
 pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
-
+python manage.py livereload
+python manage.py clear_cache
 
 "python.linting.pylintArgs": [
     "--indent-string=\"  \""
