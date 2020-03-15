@@ -1,7 +1,7 @@
 """ views """
 import os.path
 
-from django.forms.models import model_to_dict, fields_for_model
+# from django.forms.models import model_to_dict, fields_for_model
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.core.files import File
@@ -31,7 +31,7 @@ def document(request, doc_id):
     data_source = prepare_coords(pdf.freq_items, doc.name)
     bar_chart = FusionCharts("bar2d", "ex1", "600", "400", "chart-1", "json",
                              data_source)
-    
+
     return render(
         request, 'document/document.html', {
             'doc': doc,
