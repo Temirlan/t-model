@@ -1,6 +1,6 @@
 """ Views """
 # from django.forms.models import model_to_dict
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -11,6 +11,10 @@ from document.models import Document
 def index(request):
   """ Output documents """
   lists = Document.objects.all()
+
+  if request.GET.get('deleteId'):
+    Document.objects.filter(id=request.GET.get('deleteId')).delete()
+    return redirect('/documents')
 
   paginator = Paginator(lists, 10)
 

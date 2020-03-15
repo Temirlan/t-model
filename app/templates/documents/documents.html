@@ -8,14 +8,15 @@ Documents
 {% block section %}
 <div class="container">
     <h3>Documents</h3>
-    <table class="striped centered teal lighten-3">
+    <table class="striped centered grey lighten-4">
         <thead>
             <tr>
                 <th>#</th>
                 <th>Name</th>
                 <th>Author</th>
-                <th>Date of download</th>
+                <th>Date of upload</th>
                 <th>Loader</th>
+                <th>Status</th>
             </tr>
         </thead>
         <tbody>
@@ -28,11 +29,21 @@ Documents
                 <td>{{ document.created|date:"M d, Y"}}</td>
                 {% endtimezone %}
                 <td>{{ document.user.username }}</td>
+                <td>
+                    {% if document.is_parsed %}<span class="new badge blue"
+                        data-badge-caption="">parsed</span>{% endif %}
+                    {% if not document.is_parsed %}<span class="new badge red" data-badge-caption="">no
+                        parsed</span>{% endif %}
+                </td>
+                <td>
+                    <a href="?deleteId={{document.id}}"><i class="material-icons red-text text-darken-4">cancel</i></a>
+                </td>
             </tr>
             {% endfor %}
         </tbody>
     </table>
 
+    {% if aPaginator.paginator.num_pages > 1 %}
     <ul class="pagination center-align">
         {% if aPaginator.has_previous %}
         <li><a href="?page=1"><i class="material-icons">fast_rewind</i></a></li>
@@ -56,6 +67,7 @@ Documents
                     class="material-icons">fast_forward</i></a></li>
         {% endif %}
     </ul>
+    {% endif %}
 </div>
 
 {% endblock section %}
