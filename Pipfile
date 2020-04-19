@@ -28,6 +28,13 @@ codecs = "*"
 nltk = "*"
 pymystem3 = "*"
 numpy = "*"
+bigartm = "*"
+bigartm10 = "*"
+pandas = "*"
+protobuf = "==3.0.0"
+tqdm = "*"
+packaging = "*"
+ppretty = "*"
 
 [requires]
 python_version = "3.7"

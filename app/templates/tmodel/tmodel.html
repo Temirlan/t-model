@@ -1,0 +1,87 @@
+{% extends 'navbar.html' %}
+{% load tz %}
+
+{% block title %}
+Documents
+{% endblock title %}
+
+{% block section %}
+<div class="container">
+    <h3>Create a thematic model by text</h3>
+    <form action="" method="post" onsubmit="return checkForm(this);">
+        {% csrf_token %}
+        <h6>General params model:</h6>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix">looks_one</i>
+                <input id="icon_prefix" type="number" name="num_topics" min="1">
+                <label for="icon_prefix">Number of topics</label>
+            </div>
+            <div class="input-field col s4">
+                <i class="material-icons prefix">looks_two</i>
+                <input id="icon_prefix" type="number" name="num_tokens" min="1">
+                <label for="icon_prefix">Number of tokens</label>
+            </div>
+        </div>
+        <h6>Regularizers:</h6>
+        <div class="row">
+            <div class="input-field col s4">
+                <i class="material-icons prefix">looks_one</i>
+                <input id="icon_prefix" type="number" name="phi_tau" value="1" step="0.001">
+                <label for="icon_prefix">Smooth Sparse Phi</label>
+            </div>
+            <div class="input-field col s4">
+                <i class="material-icons prefix">looks_two</i>
+                <input id="icon_prefix" type="number" name="theta_tau" value="1" step="0.001">
+                <label for="icon_prefix">Smooth Sparse Theta</label>
+            </div>
+            <div class="input-field col s4">
+                <i class="material-icons prefix">looks_3</i>
+                <input id="icon_prefix" type="number" name="decorr_tau" value="1" step="0.001">
+                <label for="icon_prefix">Decorrelator Phi</label>
+            </div>
+        </div>
+        <p>
+            <button class="btn waves-effect waves-light" name="_submit" type="submit">Create <i
+                    class="material-icons right">send</i></button>
+        </p>
+        {% if is_filled_fields == False %}
+        <p class="red-text text-darken-2">Not all fields are filled</p>
+        {% endif %}
+        {% if is_checked_files == False %}
+        <p class="red-text text-darken-2">No files selected</p>
+        {% endif %}
+        <table class="striped centered grey lighten-4">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Date of upload</th>
+                    <th>Loader</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in list %}
+                <tr>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="{{item.id}}" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td><a href="/document/{{item.doc.id}}">{{ item.doc.name }}</a></td>
+                    <td>{{ item.doc.author }}</td>
+                    {% timezone "Asia/Almaty" %}
+                    <td>{{ item.doc.created|date:"M d, Y"}}</td>
+                    {% endtimezone %}
+                    <td>{{ item.doc.user.username }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </form>
+
+</div>
+
+{% endblock section %}
