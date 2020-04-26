@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes', 'django.contrib.sessions',
     'django.contrib.messages', 'livereload', 'django.contrib.staticfiles',
     'materialize', 'materializecssform', 'document', 'debug_toolbar',
-    'clear_cache'
+    'clear_cache', 'tmodel'
 ]
 
 MIDDLEWARE = [

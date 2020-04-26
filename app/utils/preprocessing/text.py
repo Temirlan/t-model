@@ -107,45 +107,41 @@ def create_thematic_model(checked_list, num_topics, num_tokens, phi_tau,
                                           data_format='vowpal_wabbit',
                                           target_folder=TARGET_FOLDER,
                                           batch_size=len(checked_list))
-
-  # batch_vectorizer = artm.BatchVectorizer(data_path=TARGET_FOLDER,
-  #                                         data_format='batches')
   dictionary = artm.Dictionary(data_path=TARGET_FOLDER)
   model = artm.ARTM(
-      num_topics=4,
+      num_topics=num_topics,
       num_document_passes=len(checked_list),
       dictionary=dictionary,
       regularizers=[
           artm.SmoothSparsePhiRegularizer(name='sparse_phi_regularizer',
-                                          tau=-1.0),
+                                          tau=phi_tau),
           artm.SmoothSparseThetaRegularizer(name='sparse_theta_regularizer',
-                                            tau=-0.5),
+                                            tau=theta_tau),
           artm.DecorrelatorPhiRegularizer(name='decorrelator_phi_regularizer',
-                                          tau=1e+5),
+                                          tau=decorr_tau),
       ],
       scores=[
           artm.PerplexityScore(name='perplexity_score', dictionary=dictionary),
           artm.SparsityPhiScore(name='sparsity_phi_score'),
           artm.SparsityThetaScore(name='sparsity_theta_score'),
-          artm.TopTokensScore(name='top_tokens_score', num_tokens=10)
+          artm.TopTokensScore(name='top_tokens_score', num_tokens=num_tokens)
       ])
 
   model.fit_offline(batch_vectorizer=batch_vectorizer,
                     num_collection_passes=len(checked_list))
-
-  print(model.score_tracker['perplexity_score'].last_value)  # .last_value
-  print(model.score_tracker['sparsity_phi_score'].last_value)  # .last_value
-  print(model.score_tracker['sparsity_theta_score'].last_value)
 
   top_tokens = model.score_tracker['top_tokens_score']
 
   topic_dictionary = OrderedDict()
 
   for topic_name in model.topic_names:
-    print(topic_name)
     list_name = []
     for (token, weight) in zip(top_tokens.last_tokens[topic_name],
                                top_tokens.last_weights[topic_name]):
-      print(token, '-', round(weight, 3))
       list_name.append(token + '-' + str(round(weight, 3)))
     topic_dictionary[str(topic_name)] = list_name
+
+  return model.score_tracker[
+      'perplexity_score'].last_value, model.score_tracker[
+          'sparsity_phi_score'].last_value, model.score_tracker[
+              'sparsity_theta_score'].last_value, topic_dictionary
