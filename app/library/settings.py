@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'f)#s=9_bi22&19wi__1j$6$k1tp-sz!vf51d3(1^aae@^+2efy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -71,16 +71,29 @@ WSGI_APPLICATION = 'library.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
-}
+if DEBUG:
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.postgresql',
+          'NAME': 'postgres',
+          'USER': 'postgres',
+          'PASSWORD': 'root',
+          'HOST': '127.0.0.1',
+          'PORT': '5432',
+      }
+  }
+else:
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.postgresql',
+          'NAME': 'df5j3jcrgs3sk3',
+          'USER': 'cxcqfyczijjibr',
+          'PASSWORD':
+          '832c1e30e5def9b1c1eeb95b888eb46d8a1bd929ab354d867ad5f9c021052d3a',
+          'HOST': 'ec2-3-231-16-122.compute-1.amazonaws.com',
+          'PORT': '5432',
+      }
+  }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
