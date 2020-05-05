@@ -19,6 +19,7 @@ from django.urls import path, include
 # from django.contrib.auth import views
 from django_registration.forms import RegistrationFormUniqueEmail
 from django_registration.backends.one_step.views import RegistrationView
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -32,6 +33,7 @@ urlpatterns = [
     path('document/', include('document.urls')),
     path('tmodel/', include('tmodel.urls')),
     path('tmodels/', include('tmodels.urls')),
+    path('', RedirectView.as_view(url='/documents')),
 ]
 
 if settings.DEBUG:

@@ -16,7 +16,8 @@ MAX_UPLOAD_SIZE = 10485760
 def validate_file_extension(value):
   """ Check file extensions: pdf, docx, html """
   ext = os.path.splitext(value.name)[1]  # [0] returns path+filename
-  valid_extensions = ['.pdf', '.docx', '.html']
+  # valid_extensions = ['.pdf', '.docx', '.html']
+  valid_extensions = ['.pdf']
 
   if not ext.lower() in valid_extensions:
     raise ValidationError(u'Unsupported file type')
