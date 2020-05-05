@@ -35,6 +35,8 @@ protobuf = "==3.0.0"
 tqdm = "*"
 packaging = "*"
 ppretty = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.7"
