@@ -130,6 +130,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, '')
 MEDIA_URL = '/media/images/'
 
 LOGIN_REDIRECT_URL = '/documents'
+LOGOUT_REDIRECT_URL = '/accounts/login'
 
 INTERNAL_IPS = [
     '127.0.0.1',
