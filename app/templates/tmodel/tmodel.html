@@ -10,20 +10,21 @@ Thematic model
     <div class="divider"></div>
     <div class="section">
         <h3>Thematic model: {{t_model.id}}</h3>
-        <p class="truncate">Create: {{t_model.user.username|capfirst}}</p>
+        <p class="truncate">Creator: {{t_model.user.username|capfirst}}</p>
         <p class="truncate">Created: {{ t_model.created|date:"M d, Y"}}</p>
         <p class="truncate">Score perplexity: {{ t_model.perplexity_score}}</p>
         <p class="truncate">Score sparsity-phi: {{ t_model.sparsity_phi_score}}</p>
         <p class="truncate">Score sparsity-theta: {{ t_model.sparsity_theta_score}}</p>
-
-        <div class="row">
-            <p>Documents:</p>
+        <p class="truncate">Num topics: {{ t_model.num_topics}}</p>
+        <p class="truncate">Num tokens: {{ t_model.num_tokens}}</p>
+        <p class="truncate">Regularizer phi-tau: {{ t_model.phi_tau}}</p>
+        <p class="truncate">Regularizer theta-tau: {{ t_model.theta_tau}}</p>
+        <p class="truncate">Regularizer decorr-tau: {{ t_model.decorr_tau}}</p>
+        <p>Documents:
             {% for item in t_model.pdf_docs.all %}
-            <div class="col">
-                <p class="truncate"><a href="/document/{{item.doc.id}}">{{item.doc.name}}</a></p>
-            </div>
+            <a href="/document/{{item.doc.id}}">{{item.doc.name}} </a>
             {% endfor %}
-        </div>
+        </p>
         <div class="row">
             {% for key, value in t_model.topic_dictionary.items %}
             <div class="col s4">

@@ -46,7 +46,12 @@ def index(request):
                             sparsity_phi_score=sparsity_phi_score,
                             sparsity_theta_score=sparsity_theta_score,
                             topic_dictionary=topic_dictionary,
-                            user_id=request.user.id)
+                            user_id=request.user.id,
+                            num_topics=num_topics,
+                            num_tokens=num_tokens,
+                            phi_tau=phi_tau,
+                            theta_tau=theta_tau,
+                            decorr_tau=decorr_tau)
       model.save()
       model.pdf_docs.add(*checked_list)
       model.save()

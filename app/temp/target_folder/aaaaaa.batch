@@ -1,4 +1,1679 @@
 
+maven
+project
+documentation
+apache
+software
+
+foundation
+table
+of
+contents
+about
+welcome
+what
+is
+feature
+summary
+download
+release
+notes
+compatibility
+road
+map
+user
+guide
+getting
+started
+
+installing
+building
+creating
+adapting
+	migrating
+from
+ant
+using
+jars
+	resources
+unit
+testing
+site
+source
+control
+making
+releases
+web
+applications
+multiple
+modules
+handling
+dependencies
+best
+	practices
+ide
+integration
+intellij
+idea
+customising
+	scripting
+writing
+plugin
+sharing
+plugins
+repositories
+internal
+sun
+jar
+names
+	uploading
+to
+ibiblio
+	reference
+glossary
+conventions
+
+descriptor
+
+properties
+command
+line
+history
+other
+party
+faq
+powered
+by
+related
+links
+books
+and
+articles
+projects
+latest
+news
+released
+june
+installation
+instructions
+new
+may
+test
+artifact
+	changelog
+dist
+eclipse
+ejb
+	linkcheck
+multiproject
+nsis
+war
+xdoc
+all
+known
+issues
+still
+find
+that
+can
+not
+be
+
+downloaded
+check
+this
+entry
+first
+
+management
+comprehension
+tool
+based
+on
+the
+concept
+object
+model
+pom
+manage
+build
+	reporting
+central
+piece
+information
+these
+pages
+are
+version
+tree
+which
+complete
+rewrite
+original
+application
+for
+more
+see
+main
+note
+no
+further
+development
+planned
+branch
+in
+maintenance
+mode
+
+restricted
+support
+bug
+fixes
+with
+need
+you
+have
+read
+our
+quick
+start
+how
+get
+use
+already
+set
+up
+want
+running
+give
+it
+ten
+minute
+will
+show
+simple
+uses
+adapt
+an
+existing
+familiar
+users
+document
+help
+feedback
+if
+any
+	questions
+or
+comments
+website
+please
+feel
+free
+post
+them
+mailing
+list
+stable
+current
+
+obtainable
+page
+obtain
+code
+
+subversion
+	continuum
+	regularly
+	generates
+head
+staging
+sites
+introduction
+was
+
+originally
+as
+attempt
+simplify
+	processes
+jakarta
+turbine
+there
+were
+several
+each
+their
+own
+files
+	different
+checked
+into
+cvs
+we
+wanted
+standard
+way
+
+definition
+easy
+publish
+share
+across
+now
+used
+managing
+hope
+created
+	something
+make
+work
+java
+
+developers
+easier
+	generally
+
+objectives
+goal
+allow
+	developer
+state
+effort
+time
+order
+areas
+attempts
+process
+	providing
+uniform
+system
+quality
+
+guidelines
+allowing
+transparent
+	migration
+features
+while
+does
+know
+provide
+lot
+details
+allows
+its
+shared
+once
+yourself
+one
+builds
+automatically
+saving
+when
+trying
+navigate
+many
+provides
+plenty
+useful
+part
+taken
+your
+	generated
+sources
+example
+change
+log
+directly
+cross
+
+referenced
+lists
+
+dependency
+reports
+	including
+coverage
+provided
+improve
+products
+also
+	alongside
+some
+given
+aims
+gather
+
+principles
+	direction
+specification
+	execution
+tests
+normal
+cycle
+keeping
+separate
+but
+parallel
+case
+naming
+execute
+cases
+setup
+environment
+do
+rely
+preparation
+assist
+workflow
+such
+issue
+tracking
+layout
+	directory
+	structure
+so
+learn
+easily
+same
+defaults
+clients
+update
+they
+take
+	advantage
+changes
+been
+made
+itself
+updated
+third
+has
+reason
+heard
+	following
+things
+let
+reusable
+above
+section
+only
+quite
+	encourage
+realise
+fit
+
+historical
+reasons
+designed
+flexible
+extent
+needs
+every
+	situation
+without
+	integrity
+decide
+
+altogether
+compare
+topic
+found
+key
+description
+able
+number
+output
+types
+distribution
+metadata
+most
+coherent
+generate
+pdf
+care
+add
+adds
+examples
+seen
+at
+
+navigation
+under
+publication
+much
+
+additional
+configuration
+	integrate
+certain
+tag
+location
+
+individual
+archive
+
+encourages
+
+repository
+comes
+	mechanism
+required
+like
+reuse
+communication
+between
+ensure
+backward
+gump
+those
+who
+maintain
+then
+stay
+abreast
+impact
+actually
+	community
+working
+massive
+else
+few
+doing
+	currently
+might
+
+interested
+distributed
+install
+both
+older
+here
+
+particular
+must
+path
+side
+windows
+	installer
+checksum
+pgp
+license
+previous
+archives
+contains
+updates
+respect
+versions
+bundled
+official
+team
+announce
+creation
+
+controlled
+tools
+create
+metrics
+logs
+beta
+upgrade
+later
+jelly
+jaxen
+core
+removed
+upgraded
+almost
+bugfixes
+full
+jira
+just
+
+exceptions
+	backwards
+
+compatible
+fact
+xml
+entities
+recommended
+performance
+consult
+	upgrading
+last
+jdk
+run
+affect
+jdks
+	libraries
+however
+class
+before
+changed
+should
+optional
+tasks
+
+deprecated
+longer
+default
+	available
+sandbox
+
+sufficient
+interest
+maintaining
+moving
+another
+
+considered
+abbot
+	appserver
+ashkelon
+aspectwerkz
+caller
+castor
+docbook
+sourceforge
+	hibernate
+jboss
+replaced
+cargo
+jbuilder
+	jcoverage
+jdee
+
+jdeveloper
+jetty
+jnlp
+latex
+latka
+scm
+shell
+struts
+tjdo
+uberjar
+vdoclet
+	webserver
+wizard
+	attribute
+	specified
+inside
+instead
+lib
+did
+declare
+	existence
+fail
+addition
+	importing
+classes
+package
+missing
+moved
+apply
+fix
+include
+static
+methods
+fields
+split
+function
+exist
+needed
+manually
+
+connection
+string
+future
+task
+single
+resolve
+specify
+type
+argument
+form
+
+artifactid
+apis
+loaded
+jvm
+ca
+override
+custom
+xslt
+	recommend
+style
+
+encouraged
+done
+parse
+errors
+
+previously
+present
+parser
+less
+invalid
+avoid
+file
+against
+	published
+http
+requests
+technologies
+wagon
+concepts
+
+understand
+migrate
+refer
+appropriate
+obtained
+final
+step
+	customise
+behaves
+
+installers
+simply
+program
+follow
+updating
+anything
+	overwrite
+remove
+safely
+profile
+during
+select
+open
+panel
+tab
+	variables
+button
+variable
+edit
+exists
+eg
+since
+define
+where
+kit
+	installed
+jre
+contain
+bin
+directories
+next
+local
+userprofile
+	epository
+save
+downloading
+second
+systems
+property
+confirm
+unpacked
+scripts
+old
+wish
+ok
+requires
+meaning
+term
+commonly
+terminology
+either
+unique
+special
+being
+prepared
+sensible
+right
+particularly
+prepare
+runs
+cache
+built
+explains
+	configure
+	locations
+reside
+specific
+online
+put
+desired
+mirror
+seem
+
+advantages
+place
+correct
+large
+stored
+often
+handles
+proxy
+servers
+remote
+mirrors
+occasionally
+because
+placed
+	explained
+common
+
+operations
+notice
+compiled
+finally
+packaged
+parsed
+html
+report
+target
+text
+results
+
+references
+goals
+called
+individually
+compile
+	artifacts
+left
+hand
+copy
+require
+result
+base
+entire
+server
+faqs
+clean
+after
+day
+usage
+explain
+speak
+probably
+problems
+
+everything
+goes
+wrong
+look
+
+attempting
+least
+usually
+
+customised
+expect
+produce
+expected
+subprojects
+though
+likely
+than
+too
+outside
+defined
+behave
+
+especially
+true
+would
+similar
+listed
+author
+omitted
+	behaviour
+customisations
+always
+bad
+gives
+pieces
+out
+box
+having
+wo
+far
+
+occurrence
+	depending
+public
+	licensing
+library
+locally
+worth
+end
+except
+wants
+track
+down
+via
+within
+works
+reading
+sure
+	converted
+	important
+very
+setting
+steps
+small
+echo
+mkdir
+could
+genapp
+skeleton
+scratch
+element
+minimal
+extra
+continue
+src
+samples
+xdocs
+explanation
+purpose
+subdirectories
+intended
+distributable
+makes
+below
+copying
+subdirectory
+
+maintained
+	necessary
+cactus
+transformed
+
+defaulting
+top
+level
+violates
+
+overriding
+ready
+checkout
+people
+basic
+xmlns
+
+pomversion
+groupid
+sample
+name
+currentversion
+sourcedirectory
+unittestsourcedirectory
+resource
+unittest
+includes
+elements
+
+introduced
+develop
+parent
+keep
+possible
+
+associated
+try
+junit
+perform
+nothing
+even
+say
+compilation
+great
+
+respective
+	sometimes
+paths
+machine
+included
+home
+
+generating
+shown
+	initially
+javadoc
+content
+title
+hello
+world
+me
+body
+view
+index
+
+regenerate
+again
+xhtml
+tags
+well
+giving
+negative
+email
+tutorial
+	hopefully
+enough
+complex
+consistently
+blocks
+notebook
+chapter
+relate
+	releasing
+	deploying
+	mentioned
+area
+general
+discuss
+introducing
+little
+really
+match
+starting
+values
+approach
+benefits
+mean
+two
+ideal
+functionality
+towards
+
+assistance
+matter
+move
+point
+call
+
+configured
+consider
+refactoring
+checking
+question
+ways
+over
+whether
+better
+	discussed
+looking
+relevant
+fine
+	classpath
+along
+retrieve
+remotely
+	resulting
+calling
+basedir
+script
+yet
+hooks
+copied
+solution
+pregoal
+	fragments
+larger
+
+equivalent
+easiest
+	executing
+sections
+answer
+commons
+someone
+differences
+product
+strong
+
+remarkable
+helping
+powerful
+	solutions
+bring
+takes
+	knowledge
+fundamental
+snippets
+
+processing
+write
+javac
+passing
+
+parameters
+off
+fileset
+prompt
+hard
+become
+options
+declarative
+ask
+coding
+ensures
+consistency
+
+difference
+targets
+composed
+discrete
+combine
+flexibility
+around
+describe
+enforce
+finding
+storage
+copies
+go
+beyond
+surrounding
+handle
+closely
+deployed
+others
+means
+covers
+
+components
+
+collection
+together
+executes
+followed
+written
+utilise
+	documents
+adding
+cut
+why
+	describes
+various
+contributing
+us
+through
+happen
+root
+manifest
+	specifics
+places
+identically
+pattern
+sets
+exclude
+alternative
+
+targetpath
+	filtering
+moment
+filters
+achieve
+filter
+cause
+reproducible
+loosely
+coupled
+design
+suite
+whenever
+
+explicitly
+speed
+remain
+house
+javadocs
+menu
+items
+browsing
+item
+declaration
+
+standalone
+submenu
+alpha
+absolute
+	according
+ie
+images
+format
+hi
+
+subsection
+verbose
+visual
+enables
+immediately
+	searching
+course
+	customize
+firstly
+skins
+classic
+skin
+earlier
+css
+
+stylesheet
+prevent
+	inclusion
+bar
+value
+numerous
+services
+tagging
+
+performing
+recent
+
+publishing
+
+subproject
+	clearcase
+partial
+three
+activity
+lines
+ones
+	excellent
+statcvs
+think
+	determine
+binary
+distributions
+decided
+
+distribute
+
+deployment
+discussions
+distributing
+private
+upload
+	supported
+supports
+
+generation
+verify
+	snapshots
+lead
+overwritten
+rebuild
+failure
+resort
+identify
+simultaneously
+cleanly
+codebase
+tagged
+cutting
+descriptors
+selected
+bytecode
+produced
+warnings
+offer
+compiler
+fixed
+deploy
+environments
+internet
+	therefore
+openpgp
+digital
+
+signatures
+keys
+sign
+tightly
+trust
+secure
+efforts
+link
+strongly
+kept
+	republish
+	mirroring
+until
+sync
+record
+announcement
+webapp
+located
+classloader
+jsps
+whatever
+	effective
+enabled
+servlet
+	container
+tomcat
+
+precompile
+
+developing
+
+production
+snippet
+
+containers
+precompilejsp
+
+attaingoal
+postgoal
+util
+fragment
+replace
+insert
+load
+	warsource
+	jspoutdir
+jspclassesoutdir
+pathelement
+taskdef
+added
+long
+notion
+reactor
+stated
+	interface
+wrapper
+foo
+broken
+timestamped
+amount
+access
+overview
+
+convenient
+	instances
+follows
+false
+executed
+	described
+
+afterwards
+context
+whole
+failed
+differently
+ignorefailures
+iterate
+
+completely
+fails
+benefit
+outlines
+
+filesystem
+
+directives
+forms
+	explicity
+
+consistent
+	identical
+inheritence
+inherit
+wherever
+unless
+declared
+snapshot
+
+containing
+depend
+changing
+
+frequently
+	declaring
+happens
+newer
+misconception
+offline
+date
+warning
+ignored
+equal
+exactly
+indicate
+causes
+repo
+expanded
+force
+info
+	inherited
+settings
+configurable
+minimise
+commit
+good
+practice
+rules
+aim
+life
+	confusing
+qa
+
+introduces
+risk
+recommendations
+database
+jndi
+external
+helpful
+method
+matches
+definitions
+extend
+among
+due
+architecture
+effects
+option
+prereqs
+	preferred
+
+determined
+	submitted
+patch
+readable
+reduce
+independent
+structuring
+sense
+thought
+depends
+scopes
+terms
+runtime
+possibly
+poms
+scope
+mevenide
+netbeans
+module
+etc
+click
+press
+dialog
+group
+fashion
+quickly
+console
+pane
+regular
+
+expression
+	extending
+	essential
+jexl
+url
+id
+expressions
+instance
+child
+accumulated
+	exception
+significant
+	separated
+	processed
+	typically
+import
+attach
+logic
+adhere
+achieved
+language
+valid
+tokenize
+foreach
+
+goalnumber
+jstl
+taglib
+	functions
+objects
+myvar
+gets
+empty
+calls
+werkz
+my
+
+precedence
+destination
+refers
+initialised
+visible
+	pluginvar
+likewise
+accessed
+looks
+greeting
+variety
+sort
+problem
+priority
+	correctly
+register
+
+deregister
+enabling
+registering
+doc
+registerreport
+
+pluginname
+relative
+	extension
+	parameter
+window
+browser
+api
+owners
+host
+
+themselves
+maintainers
+	committer
+willing
+succeed
+quicker
+bundles
+request
+service
+close
+	potential
+sending
+parts
+mail
+
+subscribed
+send
+hold
+	downloads
+	protocols
+company
+
+structured
+store
+	utilities
+typical
+space
+faster
+anyway
+
+versioning
+filename
+basis
+short
+
+permission
+
+overridden
+sftp
+username
+password
+switch
+honour
+uploaded
+scp
+ftp
+additionally
+data
+licenses
+implementations
+contact
+implementation
+
+activation
+	framework
+jdo
+jms
+jsp
+jta
+bundle
+
+executable
+referred
+	lowercase
+uniquely
+schema
+domain
+repos
+posting
+blank
+asked
+
+transitive
+encountered
+	organized
+
+indicating
+defines
+patterns
+ids
+proposed
+material
+	hierarchy
+antlr
+
+specifying
+unused
+replacement
+	character
+port
+authentication
+ntlm
+favour
+commands
+arg
+emacs
+logging
+
+adornments
+display
+debug
+banner
+stack
+	happening
+quiet
+exit
+	debugging
+trace
+vm
+memory
+
+checkstyle
+jxr
+pmd
+simian
+drop
+xdoclet
+xsddoc
+osgi
+emma
+jblanket
+analyzer
+cool
+suggest
+submit
+stop
+disable
+unversioned
+lots
+search
+spin
+
+background
+troubleshooting
+bizarre
+slower
+behind
+firewall
+person
+irc
+
+workaround
+	addressed
+patient
+reviewed
+applied
+
+submitting
+patches
+implemented
+	preparing
+master
+seconds
+yes
+greater
+clash
+communicate
+warsourcedir
+db
+thread
+xalan
+caused
+portal
+xmlrpc
+dao
+presentation
+client
+jsmime
+openjms
+paneris
+hmvc
+vincent
+massol
+july
+	september
+developerworks
+march
+julien
+dubois
+november
+eric
+pugh
+onjava
+theserverside
+rob
+herbst
+october
+	astrogrid
+archiva
 Ñ‚ĞµĞ¼Ğ°Ñ‚Ğ¸Ñ‡ĞµÑĞºĞ¸Ğ¹
 Ğ¼Ğ¾Ğ´ĞµĞ»Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğµ
 Ğ¿Ğ¾ÑĞ²ÑÑ‰Ğ°Ñ‚ÑŒ
@@ -247,10 +1922,7 @@ $Ğ¿Ğ¾ÑĞ»ĞµĞ´Ğ¾Ğ²Ğ°Ñ‚ĞµĞ»ÑŒĞ½Ğ¾ÑÑ‚ÑŒ
 ÑĞ±Ğ¾Ñ€Ğ½Ğ°Ñ
 Ñ‚ĞµÑ…Ğ½Ğ¾Ğ»Ğ¾Ğ³Ğ¸Ñ
 ĞºĞ¾Ğ¼Ğ°Ğ½Ğ´Ğ°
-windows
 	microsoft
-server
-users
 Ñ‚Ğ°Ğ±Ğ»Ğ¸Ñ†Ğ°
 Ğ¿ĞµÑ€Ğ²Ñ‹Ğ¹
 Ğ¾ĞºĞ°Ğ·Ñ‹Ğ²Ğ°Ñ‚ÑŒÑÑ
@@ -365,7 +2037,6 @@ $Ğ¸Ğ½Ñ‚ĞµÑ€Ğ¿Ñ€ĞµÑ‚Ğ¸Ñ€ÑƒĞµĞ¼Ğ¾ÑÑ‚ÑŒ
 Ğ¿Ñ€ĞµĞ´Ğ¿Ğ¾Ğ»Ğ¾Ğ¶ĞµĞ½Ğ¸Ğµ
 Ğ¿Ñ€Ğ¾ÑÑ‚Ğ¾Ğ¹
 Ğ¿Ğ¾Ñ€ÑĞ´Ğ¾Ğº
-of
 words
 Ğ³ĞµĞ½ĞµÑ€Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒÑÑ
 
@@ -571,11 +2242,266 @@ $Ğ¿Ñ€Ğ¾Ğ´ĞµĞ¼Ğ¾Ğ½ÑÑ‚Ñ€Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒ
 
 Ñ‚Ğ¾ĞºĞµĞ½
 topics
-	documents
 Ğ±Ğ°Ğ½Ğ½ĞµÑ€
 Ï„m
-Ğ²ĞµÑ@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class›3 |text           	 
-                        ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~  €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š-  \B-  èA-   @-  @A-   @-  0B-  @@-   @-   @-   @-  €@-  @@-   A-   A-  À@-  8B-   @-  °A-  €@-  €@-  B-   @-  @A-  $B-  PA-  B-  à@-  ¤B-   @-  @@-  A-  À@-   @-  ÀA-  TB-   @-   @-  @A-  à@-   @-  €@-  €@-  à@-  €@-   @-   @-   A-  à@-   A-   @-  €@-  €@-   @-   A-  €@-  `A-   @-  ¸A-  €@-   @-  À@-  B-  A-  PA-  À@-   @-  A-  À@-   @-  €@-  PA-   @-   @-  8B-  TB-  €@-  €@-  A-  €@-  @@-   @-   A-   A-   @-   @-  @A-  0A-   A-   A-  ˆA-  @@-   @-  pA-  €@-   @-   @-   @-   A-  €@-   @-   @-   @-   @-   @-  A-  à@-  @@-  èA-   @-   @-  A-   @-  €@-   A-  pA-  À@-  @@-   @-   @-  A-  @@-   @-   @-  @@-   @-   A-   @-   @-  0A-   A-  A-   @-   @-  €@-  @@-  €@-  €@-   @-  @@-  @@-  @@-  @@-  @@-   @-   @-  0A-   @-   @-  @@-  @@-   @-  A-   @-  À@-   @-   A-  PA-  A-  à@-   @-  ˆA-  @@-  À@-   A-  €@-   A-   A-   A-  @@-  À@-   @-   @-  €@-   @-   @-   @-  @@-   @-  A-   A-  à@-  @@-  @@-  €@-   @-  `A-   A-  @@-  `A-  @@-  €@-   A-  @@-   @-   @-   @-  @@-   @-  À@-   @-   @-   @-  @@-   @-   @-  @@-   @-  @@-   A-  @@-  @@-   @-   @-   @-  @@-   @-   @-   @-   @-   @-   @-   @-   @-  @@-   @-   A-  €@-   A-   @-  @@-   @-   @-  à@-  @@-  @@-  à@-   @-   @-   @-  @@-  @@-   @-   @-  @@-   @-  @@-  @@-  0A-  @@-   @-  @@-  €@-   @-  A-  @@-   @-  @@-  €@-   @-  @@-   @-   @-  @@-  @@-  €@-   @-  €@-  @@-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @A-  €@-  @@-   @-  @@-  €@-  @@-  À@-   @-   @-   @-   @-   @-  À@-   @-   @-   @-   @-  @@-  À@-   @-  À@-   @-   @-  €@-   @-   A-   @-   @-  @@-  €@-   @-   @-   @-   @-  @@-   @-  @@-  @@-  @@-   A-  A-   @-  @@-   @-   @-  à@-   @-   @-  @@-  @@-   @-  €@-  €@-   @-   @-  @@-  @@-  €@-  A-  @@-  €A-   @-  @@-   @-  @@-   @-  €@-   @-   @-  @@-   A-  À@-   @-   @-   @-  øA-  @@-   @-   @-   @-  €@-  €@-  @@-   @-  à@-  €@-  @@-  A-   @-  0A-  B-   B-   @-  €@-   @-  @@-   @-  0A-  €@-  €@-  @@-  @@-   @-   @-   @-  @@-  À@-  PA-   @-   @-  À@-   A-  A-  `A-   @-  @@-   @-   @-   @-   @-   @-  @@-  @@-   @-  B-   @-  @A-  @@-  à@-   @-  @@-  @@-  À@-  @@-   @-   @-  A-  pA-   A-  @@-   A-  @@-  À@-  @@-  €@-   @-  @@-  @@-   @-  @@-   @-  @@-   @-   @-   @-  PA-  0A-   @-  €@-  @@-  €@-   @-   @-  @@-  @@-  À@-  €@-   @-  @@-  @@-  A-  à@-  À@-   @-  À@-  €@-  à@-  €@-   @-   @-   @-  @@-   @-   @-   @-   @-  €@-  @@-   @-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @@-  €@-   @-   @-   @-  À@-   @-  @@-  @@-   @-   @-   @-  @@-   A-  €@-   @-  €@-   @-  €@-   @-   @-   @-  @@-   @-   @-  @@-  A-   @-   @-   @-   @-   @-   @0 000000000	0
-0000000000000000000000 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~00€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 ›3|text           	 
-                        ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~  €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š-  \B-  èA-   @-  @A-   @-  0B-  @@-   @-   @-   @-  €@-  @@-   A-   A-  À@-  8B-   @-  °A-  €@-  €@-  B-   @-  @A-  $B-  PA-  B-  à@-  ¤B-   @-  @@-  A-  À@-   @-  ÀA-  TB-   @-   @-  @A-  à@-   @-  €@-  €@-  à@-  €@-   @-   @-   A-  à@-   A-   @-  €@-  €@-   @-   A-  €@-  `A-   @-  ¸A-  €@-   @-  À@-  B-  A-  PA-  À@-   @-  A-  À@-   @-  €@-  PA-   @-   @-  8B-  TB-  €@-  €@-  A-  €@-  @@-   @-   A-   A-   @-   @-  @A-  0A-   A-   A-  ˆA-  @@-   @-  pA-  €@-   @-   @-   @-   A-  €@-   @-   @-   @-   @-   @-  A-  à@-  @@-  èA-   @-   @-  A-   @-  €@-   A-  pA-  À@-  @@-   @-   @-  A-  @@-   @-   @-  @@-   @-   A-   @-   @-  0A-   A-  A-   @-   @-  €@-  @@-  €@-  €@-   @-  @@-  @@-  @@-  @@-  @@-   @-   @-  0A-   @-   @-  @@-  @@-   @-  A-   @-  À@-   @-   A-  PA-  A-  à@-   @-  ˆA-  @@-  À@-   A-  €@-   A-   A-   A-  @@-  À@-   @-   @-  €@-   @-   @-   @-  @@-   @-  A-   A-  à@-  @@-  @@-  €@-   @-  `A-   A-  @@-  `A-  @@-  €@-   A-  @@-   @-   @-   @-  @@-   @-  À@-   @-   @-   @-  @@-   @-   @-  @@-   @-  @@-   A-  @@-  @@-   @-   @-   @-  @@-   @-   @-   @-   @-   @-   @-   @-   @-  @@-   @-   A-  €@-   A-   @-  @@-   @-   @-  à@-  @@-  @@-  à@-   @-   @-   @-  @@-  @@-   @-   @-  @@-   @-  @@-  @@-  0A-  @@-   @-  @@-  €@-   @-  A-  @@-   @-  @@-  €@-   @-  @@-   @-   @-  @@-  @@-  €@-   @-  €@-  @@-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @A-  €@-  @@-   @-  @@-  €@-  @@-  À@-   @-   @-   @-   @-   @-  À@-   @-   @-   @-   @-  @@-  À@-   @-  À@-   @-   @-  €@-   @-   A-   @-   @-  @@-  €@-   @-   @-   @-   @-  @@-   @-  @@-  @@-  @@-   A-  A-   @-  @@-   @-   @-  à@-   @-   @-  @@-  @@-   @-  €@-  €@-   @-   @-  @@-  @@-  €@-  A-  @@-  €A-   @-  @@-   @-  @@-   @-  €@-   @-   @-  @@-   A-  À@-   @-   @-   @-  øA-  @@-   @-   @-   @-  €@-  €@-  @@-   @-  à@-  €@-  @@-  A-   @-  0A-  B-   B-   @-  €@-   @-  @@-   @-  0A-  €@-  €@-  @@-  @@-   @-   @-   @-  @@-  À@-  PA-   @-   @-  À@-   A-  A-  `A-   @-  @@-   @-   @-   @-   @-   @-  @@-  @@-   @-  B-   @-  @A-  @@-  à@-   @-  @@-  @@-  À@-  @@-   @-   @-  A-  pA-   A-  @@-   A-  @@-  À@-  @@-  €@-   @-  @@-  @@-   @-  @@-   @-  @@-   @-   @-   @-  PA-  0A-   @-  €@-  @@-  €@-   @-   @-  @@-  @@-  À@-  €@-   @-  @@-  @@-  A-  à@-  À@-   @-  À@-  €@-  à@-  €@-   @-   @-   @-  @@-   @-   @-   @-   @-  €@-  @@-   @-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @@-  €@-   @-   @-   @-  À@-   @-  @@-  @@-   @-   @-   @-  @@-   A-  €@-   @-  €@-   @-  €@-   @-   @-   @-  @@-   @-   @-  @@-  A-   @-   @-   @-   @-   @-   @0 000000000	0
-0000000000000000000000 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~00€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 *$8161c78f-c0d3-42ee-af35-7eab614ad6092@default_transaction
+Ğ²ĞµÑ@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_class@default_classŞœ |text           	 
+                        ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~  €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €	 	 ‚	 ƒ	 „	 …	 †	 ‡	 ˆ	 ‰	 Š	 ‹	 Œ	 	 	 	 	 ‘	 ’	 “	 ”	 •	 –	 —	 ˜	 ™	 š	 ›	 œ	 	 	 Ÿ	  	 ¡	 ¢	 £	 ¤	 ¥	 ¦	 §	 ¨	 ©	 ª	 «	 ¬	 ­	 ®	 ¯	 °	 ±	 ²	 ³	 ´	 µ	 ¶	 ·	 ¸	 ¹	 º	 »	 ¼	 ½	 ¾	 ¿	 À	 Á	 Â	 Ã	 Ä	 Å	 Æ	 Ç	 È	 É	 Ê	 Ë	 Ì	 Í	 Î	 Ï	 Ğ	 Ñ	 Ò	 Ó	 Ô	 Õ	 Ö	 ×	 Ø	 Ù	 Ú	 Û	 Ü	 İ	 Ş	 ß	 à	 á	 â	 ã	 ä	 å	 æ	 ç	 è	 é	 ê	 ë	 ì	 í	 î	 ï	 ğ	 ñ	 ò	 ó	 ô	 õ	 ö	 ÷	 ø	 ù	 ú	 û	 ü	 ı	 ş	 ÿ	 €
+ 
+ ‚
+ ƒ
+ „
+ …
+ †
+ ‡
+ ˆ
+ ‰
+ Š
+ ‹
+ Œ
+ 
+ 
+ 
+ 
+ ‘
+ ’
+ “
+ ”
+ •
+ –
+ —
+ ˜
+ ™
+ š
+ ›
+ œ
+ 
+ 
+ Ÿ
+  
+ ¡
+ ¢
+ £
+ ¤
+ ¥
+ ¦
+ §
+ ¨
+ ©
+ ª
+ «
+ ¬
+ ­
+ ®
+ ¯
+ °
+ ±
+ ²
+ ³
+ ´
+ µ
+ ¶
+ ·
+ ¸
+ ¹
+ º
+ »
+ ¼
+ ½
+ ¾
+ ¿
+ À
+ Á
+ Â
+ Ã
+ Ä
+ Å
+ Æ
+ Ç
+ È
+ É
+ Ê
+ Ë
+ Ì
+ Í
+ Î
+ Ï
+ Ğ
+ Ñ
+ Ò
+ Ó
+ Ô
+ Õ
+ Ö
+ ×
+ Ø
+ Ù
+ Ú
+ Û
+ Ü
+ İ
+ Ş
+ ß
+ à
+ á
+ â
+ ã
+ ä
+ å
+ æ
+ ç
+ è
+ é
+ ê
+ ë
+ ì
+ í
+ î
+ ï
+ ğ
+ ñ
+ ò
+ ó
+ ô
+ õ
+ ö
+ ÷
+ ø
+ ù
+ ú
+ û
+ ü
+ ı
+ ş
+ ÿ
+ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™-  QD- €½C-  |B-  @A-  €A-   @-   @- @D-   @-   B-  €@-  pB-  D-  ˆA-  @@-  0B-  œB-  `A-   A-   @-   @-  B-  ØA-  ˜A-  `A-  à@-  LB-  ğA-   @-  à@-  C-  C-   C-  B-  8B-   B-  @A-  ÖB-  ¸B-  øA-  °A-  B-  (B-  @A-  ˜A-   A-  À@-  ¤B-  øA-  ÀA-  €A-  €A-  `A-  °A-  PA-  øA-   A- €®C-  A-  C-   B-  ¸A-  `A-  ºB-  @A-  0A- @…D-  À@-  `B-   @-  PA-  èA-  àB-  øA-  ¨A-  à@-  ¢B-   A-  à@-   @-  C-  @A-  @A-  €@- @D-  €@-  ÊB-   A-  @@-  @A-  @@-  A-  ˆA-  \B-  ”B-  dB-  pB-  À@-   @-  À@-  €@-   @-  ¸A-  €@-   A-  pA-  ²B-  @A-  @A-  A-  B-  ¿C-  ‹C-  C-  ˜C-   A-  ¸A-  §C-   @-  B-  0A-  €@-  ¨A-  ¨A-  EC-  àD-   @-   A-  ˆA-  DB-  €@-  )C-  @@-  ÈA-  À@-  êB-  lB-   @- €–C-  B-   A-  XB-  0A-   @-  à@-  øA- €îC-  ¬B-  B-  A-  @B-  ğA-  A-  B-  €@-  @@- @D-  @@-  À@-   @-   A-  pA-  @@-  IC-  †B- À
+D-  ôB-  ˜A-  €@-  à@-  ĞA-  ÔB-  (B-  C-  àA-  ÜB-  LB-  <B-  ĞA-   A-  ¥C-  à@-  à@-  JC-  À@-  ¨A-  ˆA-   @-  øB-  B-   A-  B-  ğA-  $B-  @@-  GC-  ˜B-  A-  C-   @-  @@-  4B-  à@-   @-  @@-  <B-  ¸A-  hB-  `A-   B-   @-  ÈA-  @@-  –B-  €@-   @-   @-  @@-   @-   @-  pA-   @-  €A-  €@-  gC-  À@-   @-  @@-  à@-   @-  ÀB-  `A-  ÀA-  DB-  B-   B-  B-   B-   A-  |B-   A-  ÀA-   @-   B-  àA-   A-  @A-  @A-  ¸A-  A-  ÀA-  ¤B-  @@-  @@-  0A-   A-  ,B-  °A-  B-  ĞA-   A-   @-  à@-  ˜B-  0A-  €A-  @@-  €@-  øA-  @A-  €@-   @-  èA-  @A-   @-  ĞA-  @@-  À@-   @-  À@-   @-   A-  B-  B-  €A-   A-  À@-  à@-  pA-  àA-  A-  A-  À@-  @B-  `A-  PA-   @-  ˆB-   @-  €@-   A-  A-  @@-  pA-  °A-  @@- €†C-  ğA-   A-  †B-  àA-  pA-   A-   @-  €@-  @A-  0B-  B-  pA-   @-  °A-   @-  @@-  ˜B-   @-  œB-  ØA-  À@-   @-  @@-  @@-  @@-  À@-  B-  À@-  €@-  À@-  À@-  ŒB-   @-  A-  €@-  0A-  `A-  @@-  øA-  C-  à@-   @-  €@-   @-  ,B-  `A-   @-  A-  ÌB-  øA-  ¸B-   @-   A-  B-  @A-  @@-  A-  ‚B-  `A-  @@-  øA-  ĞA-  A-  PA-  à@-  à@-  (B-   A-  À@-  `B-  `A-   A-  À@-  àA-  (B-  PB-  €A-   @-   @-  @@-  €@-   A-  @@-   @-   @-  A-   A-  €@-  ˆA-   @-   @-   @-   @-   @-   A-  A-  àA-   A-  A-  ğA-  A-  ÀA-  à@-  àA-   @-  ¸A-  @@-  @@-  ,B-   @-  `A-  à@-   B-  `A-  ØA-  À@-   A-  ˜A-  A-  €@-  A-  èA-   A-   A-  @A-   @-  îB-  A-   @-  ˆA-  HB-   @-   @-  `A-  ˆA-   @-  À@-   A-  À@-   A-  B-   @-   @-   @-  à@-   @-  ğA-   @-  @@-   A-   A-  ¨A-  ĞA-  €@-   A-  ÀA-  `A-  @@-  B-  àA-  øA-   A-  €@-   A-  à@-   @-  €@-   A-  @A-  à@-  ¨A-  €@-   @-  °A-  ˆA-  @@-  À@-   @-  €@-   @-  `A-  0B-   @-   @-   @-   @-   A-  tB-  @@-  À@-   @-  @@-  €@-   @-  A-  PA-  ÈA-  @@-  @@-  À@-   @-   A-  à@-  ¸A-   @-  @@-   @-   A-  @@-  ŠB-  €@-   @-  ¨A-  B-   @-  `A-   @-  ¾B-  0A-  ÈA-  @A-   @-  ,B-   B-   @-  @@-   @-  €@-   @-  0A-  @@-   @-   @-   @-   @-   @-   @-  @@-   @-   @-  €@-  À@-   @-   @-   @-   @-   @-  @@-   @-   @-   @-  B-  @@-   @-   @-   @-   @-   @-   @-  €@-  A-  @A-  pA-   A-  à@-  €@-   @-  €@-  à@-   @-  A-  pA-  @@-   @-  À@-  A-  B-   @-   @-   @-   @-  @@-   @-  A-   A-   @-  À@-  pA-  ˆA-  À@-   @-  ˜A-  0A-   @-   @-  `A-  @@-  0A-  €@-  à@-  ˆA-  à@-  @@-  @@-  À@-  À@-  €A-  @@-   A-  à@-   @-  €@-   @-   @-   A-  ØB-  À@-  A-  B-  @@-   @-   @-  @@-   A-  @@-  ÈA-   A-   @-   A-  A-  PA-   @-   @-  A-   @-  PA-  @@-  PA-  @@-  €@-   @-   @-   @-  0A-  A-   @-   @-  À@-  €@-  `A-  A-   A-  A-  à@-  °A-  TB-   @-  PA-  €@-  PA-   @-   A-  A-   B-   @-   @-  à@-  @A-   @-   @-  \B-   @-  @@-   A-  À@-   A-  @@-  PA-  @@-   @-  @@-   @-  à@-  @@-  à@-  pA-   @-  €@-  @@-   A-   @-   @-  A-   A-  @@-   A-  €@-   @-  ĞA-  @@-  €A-  @@-  @@-  @@-   @-  ˜A-  à@-  A-  €@-  ¸A-   @-  PA-  @@-   B-  À@-   @-  PA-   @-   @-  ØA-  @@-  €@-  à@-  0A-  @@-   @-  A-  lB-   A-   @-  À@-  À@-  B-  `A-   @-  ØA-  B-  €@-   @-  °A-  À@-   @-  à@-   A-  pA-  @@-  `A-  PA-  €@-  0A-   @-   @-  @@-  0A-  à@-  À@-   @-  @A-  €@-  À@-  ĞA-  à@-  €@-  à@-  @@-  ˆA-  à@-  €@-  °A-   @-  @@-  ˜A-   @-   @-  @A-  B-  PA-  PA-  à@-   @-   A-   @-  PA-   @-  €@-  @@-  ÀA-  @@-  A-  A-  €@-   @-   @-  A-  @@-  ˆA-   @-  À@-  À@-  @@-   @-   @-  €@-   A-  ˜A-  à@-  @@-  pA-   @-  `A-  @A-  PA-  A-  PA-  0A-   @-  @@-  €@-   @-  @@-  PA-  @@-  @@-  À@-  €@-   @-  0A-   @-  €@-   @-   @-   @-  A-   @-   @-  à@-   @-   A-   @-  @@-   @-  XB-  PA-   @-  à@-  @@-  à@-  €@-  à@-  0A-   @-  `A-   A-  B-   @-   @-  @@-  A-  €@-  pA-   @-   @-  @@-  0A-   A-  PA-  @@-  pA-   A-  à@-  @@-  PA-  €@-  @@-  €@-  €@-  €@-  @@-  à@-   A-  À@-  @A-  À@-   @-   A-  à@-  A-  ğA-  €@-  À@-   @-  €@-  @@-  @@-  0A-  à@-  À@-  @A-   @-   @-   @-  €@-   @-   @-   @-   @-  €@-   @-   @-   @-   @-  A-  €@-   @-   A-   @-   @-  €@-   @-  €@-   @-  @A-   @-  @@-  €@-  ĞA-   @-  €A-   @-   @-   @-   @-  @@-   @-   @-  à@-   @-   @-   @-   A-   A-  A-  0A-  À@-  €@-  @@-   @-  A-  @@-   @-   @-  @@-  @@-   A-  pA-   @-   @-  A-   @-  à@-   @-   @-  `A-  €@-  €@-   A-   @-   @-  €@-  €@-  À@-   @-   @-   @-  @@-   @-   @-  A-  €@-   @-   @-   @-  `A-  €@-  €@-   A-  @@-   @-   @-  @@-  €@-   A-   @-  à@-   @-  @@-   @-   @-  €@-   @-   @-   @-  @@-  €@-   @-  @@-  @@-  @@-  @@-   A-   @-   @-  €@-   @-  à@-  à@-  @A-   @-   @-  À@-   @-   @-   @-   @-  €@-   A-  0A-   @-  `A-   @-  à@-  €@-   @-  A-   @-  A-  @@-   @-   @-   @-  À@-  @@-  @@-  À@-  @@-  €@-   @-  @@-   @-  À@-  À@-  @@-   @-   @-  @@-   @-  €@-   @-  À@-  @@-  @@-   @-  A-  @@-   @-  pA-  €@-   @-   @-  @@-  @@-  @@-  €@-   @-   A-  @@-  @@-  @@-   @-  @@-  À@-   @-  @@-   @-  €@-   @-   @-  @@-  €@-   @-   @-   @-   @-  €@-  @A-   @-  @@-   @-   @-   @-  €@-  @@-   @-  @@-  €@-  À@-  @@-  @@-   @-  €@-  €@-   @-  €@-  €@-   @-  @@-   A-   @-   @-   A-  ˆA-   @-  €@-  à@-  €@-   @-   @-   @-   @-   @-   @-  @@-   @-   @-  @@-   @-  @@-   @-   @-   @-   @-   @-   @-   @-  @@-  PA-   @-  à@-  @@-   @-   @-  @@-   @-  €@-   @-   @-  @@-   @-  A-   @-   @-   @-   @-  €@-  €@-   @-   A-   @-  @@-  @A-   @-  @@-  À@-   @-  à@-  €@-  €@-   @-  A-   @-   @-  À@-  €@-  à@-   @-  €@-   @-  @@-   @-   A-  @@-  @@-   @-  à@-  @@-   A-   @-   @-  `A-   @-   @-   @-   @-  @@-   @-  à@-  A-   @-   @-   @-  €@-  À@-   A-  @@-  €@-  €@-   @-  €@-  @@-   @-   @-  à@-   @-  @@-   @-   @-  @@-   @-   @-   @-   @-  À@-  @@-   @-  €@-  @@-  ˆA-   @-  à@-   @-  @@-  €@-   @-   @-   @-   A-  à@-   @-   @-   @-   @-  @@-   @-   A-  @@-  @@-  @@-  0A-  @A-   @-   @-  €@-  À@-   @-   @-  @@-   @-   @-   @-   @-   @-   @-  @@-  @@-   A-  À@-  @@-   @-  à@-  À@-  €@-  €@-  @@-   @-  à@-  @@-  @@-   @-   @-  PA-   @-  @@-   @-   @-   @-   @-   @-   @-  €@-   @-   @-  @@-  à@-   @-  @@-   @-  à@-  @@-  @@-   @-  pA-   @-   @-  À@-   @-   @-  €@-   @-   @-  à@-   A-  ˜A-   @-  €@-   @-   @-  À@-   @-  @@-  €@-  A-   @-  @@-  @@-   @-   @-  €@-   @-   @-  €@-   @-  €@-  @@-   @-   @-  @@-  @@-  @@-  @@-   @-  ÀA-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @@-   @-  à@-   @-   @-  À@-  @@-   @-  @@-  à@-  €@-  @@-  @@-  €@-  @@-   @-   @-  à@-  €@-  0A-  €@-  @@-   @-   @-   @-   @-   @-  A-   @-   @-   @-   @-   @-  À@-   @-   @-   @-   @-   @-  €@-   @-   @-   @-   @-   @-  À@-  €@-   @-  À@-  @@-  €@-   @-   @-  @@-   @-   @-  @@-   @-  à@-  €@-   @-   @-  à@-  @@-  @@-   @-   @-   @-  0A-   @-  @@-   @-   @-  À@-  @@-   @-  @@-   @-  @@-   @-   @-  @@-   @-   @-  €@-  @@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @@-   @-   @-  €@-  €@-   @-  @@-  €@-  €@-   @-  @@-   @-   A-  à@-   @-  @@-   @-   @-   @-  @@-  @@-   @-  @@-  €@-   @-  €@-   @-   @-  à@-   @-   @-   @-   @-   @-   @-   @-  à@-   @-   @-  @@-  @@-  @A-   @-  @@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  €@-  €@-  @@-   @-   @-  €@-   @-  @@-   @-   @-   @-   @-   @-   @-  @@-   @-   @-   @-   @-  @@-   @-   @-   @-   @-   @-  €@-  €@-  @@-   @-  @@-   @-   @-   @-   @-   @-   @-   @-  @@-   @-   @-   @-  À@-   @0 000000000	0
+0000000000000000000000 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~00€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€	0	0‚	0ƒ	0„	0…	0†	0‡	0ˆ	0‰	0Š	0‹	0Œ	0	0	0	0	0‘	0’	0“	0”	0•	0–	0—	0˜	0™	0š	0›	0œ	0	0	0Ÿ	0 	0¡	0¢	0£	0¤	0¥	0¦	0§	0¨	0©	0ª	0«	0¬	0­	0®	0¯	0°	0±	0²	0³	0´	0µ	0¶	0·	0¸	0¹	0º	0»	0¼	0½	0¾	0¿	0À	0Á	0Â	0Ã	0Ä	0Å	0Æ	0Ç	0È	0É	0Ê	0Ë	0Ì	0Í	0Î	0Ï	0Ğ	0Ñ	0Ò	0Ó	0Ô	0Õ	0Ö	0×	0Ø	0Ù	0Ú	0Û	0Ü	0İ	0Ş	0ß	0à	0á	0â	0ã	0ä	0å	0æ	0ç	0è	0é	0ê	0ë	0ì	0í	0î	0ï	0ğ	0ñ	0ò	0ó	0ô	0õ	0ö	0÷	0ø	0ù	0ú	0û	0ü	0ı	0ş	0ÿ	0€
+0
+0‚
+0ƒ
+0„
+0…
+0†
+0‡
+0ˆ
+0‰
+0Š
+0‹
+0Œ
+0
+0
+0
+0
+0‘
+0’
+0“
+0”
+0•
+0–
+0—
+0˜
+0™
+0š
+0›
+0œ
+0
+0
+0Ÿ
+0 
+0¡
+0¢
+0£
+0¤
+0¥
+0¦
+0§
+0¨
+0©
+0ª
+0«
+0¬
+0­
+0®
+0¯
+0°
+0±
+0²
+0³
+0´
+0µ
+0¶
+0·
+0¸
+0¹
+0º
+0»
+0¼
+0½
+0¾
+0¿
+0À
+0Á
+0Â
+0Ã
+0Ä
+0Å
+0Æ
+0Ç
+0È
+0É
+0Ê
+0Ë
+0Ì
+0Í
+0Î
+0Ï
+0Ğ
+0Ñ
+0Ò
+0Ó
+0Ô
+0Õ
+0Ö
+0×
+0Ø
+0Ù
+0Ú
+0Û
+0Ü
+0İ
+0Ş
+0ß
+0à
+0á
+0â
+0ã
+0ä
+0å
+0æ
+0ç
+0è
+0é
+0ê
+0ë
+0ì
+0í
+0î
+0ï
+0ğ
+0ñ
+0ò
+0ó
+0ô
+0õ
+0ö
+0÷
+0ø
+0ù
+0ú
+0û
+0ü
+0ı
+0ş
+0ÿ
+0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 š4|text š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô Ö õ ï ¿ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş  ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ   Ÿ   ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö ÷ ø ù ú û ü ı ş ÿ €  ‚ ƒ „ … † ‡ ˆ ‰ Š ‹ Œ     ‘ ’ “ ” • – — ˜ ™ š › œ ˆ   Ÿ-  \B-  èA-   @-  @A-   @-  0B-  @@-   @-   @-   @-  €@-  @@-   A-   A-  À@-  8B-   @-  °A-  €@-  €@-  B-   @-  @A-  $B-  PA-  B-  à@-  ¤B-   @-  @@-  A-  À@-   @-  ÀA-  TB-   @-   @-  @A-  à@-   @-  €@-  €@-  à@-  €@-   @-   @-   A-  à@-   A-   @-  €@-  €@-   @-   A-  €@-  `A-   @-  ¸A-  €@-   @-  À@-  B-  A-  PA-  À@-   @-  A-  À@-   @-  €@-  PA-   @-   @-  8B-  TB-  €@-  €@-  A-  €@-  @@-   @-   A-   A-   @-   @-  @A-  0A-   A-   A-  ˆA-  @@-   @-  pA-  €@-   @-   @-   @-   A-  €@-   @-   @-   @-   @-   @-  A-  à@-  @@-  èA-   @-   @-  A-   @-  €@-   A-  pA-  À@-  @@-   @-   @-  A-  @@-   @-   @-  @@-   @-   A-   @-   @-  0A-   A-  A-   @-   @-  €@-  @@-  €@-  €@-   @-  @@-  @@-  @@-  @@-  @@-   @-   @-  0A-   @-   @-  @@-  @@-   @-  A-   @-  À@-   @-   A-  PA-  A-  à@-   @-  ˆA-  @@-  À@-   A-  €@-   A-   A-   A-  @@-  À@-   @-   @-  €@-   @-   @-   @-  @@-   @-  A-   A-  à@-  @@-  @@-  €@-   @-  `A-   A-  @@-  `A-  @@-  €@-   A-  @@-   @-   @-   @-  @@-   @-  À@-   @-   @-   @-  @@-   @-   @-  @@-   @-  @@-   A-  @@-  @@-   @-   @-   @-  @@-   @-   @-   @-   @-   @-   @-   @-   @-  @@-   @-   A-  €@-   A-   @-  @@-   @-   @-  à@-  @@-  @@-  à@-   @-   @-   @-  @@-  @@-   @-   @-  @@-   @-  @@-  @@-  0A-  @@-   @-  @@-  €@-   @-  A-  @@-   @-  @@-  €@-   @-  @@-   @-   @-  @@-  @@-  €@-   @-  €@-  @@-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @A-  €@-  @@-   @-  @@-  €@-  @@-  À@-   @-   @-   @-   @-   @-  À@-   @-   @-   @-   @-  @@-  À@-   @-  À@-   @-   @-  €@-   @-   A-   @-   @-  @@-  €@-   @-   @-   @-   @-  @@-   @-  @@-  @@-  @@-   A-  A-   @-  @@-   @-   @-  à@-   @-   @-  @@-  @@-   @-  €@-  €@-   @-   @-  @@-  @@-  €@-  A-  @@-  €A-   @-  @@-   @-  @@-   @-  €@-   @-   @-  @@-   A-  À@-   @-   @-   @-  øA-  @@-   @-   @-   @-  €@-  €@-  @@-   @-  à@-  €@-  @@-  A-   @-  0A-  B-   B-   @-  €@-   @-  @@-   @-  0A-  €@-  €@-  @@-  @@-   @-   @-   @-  @@-  À@-  PA-   @-   @-  À@-   A-  A-  `A-   @-  @@-   @-   @-   @-   @-   @-  @@-  @@-   @-  B-   @-  @A-  @@-  à@-   @-  @@-  @@-  À@-  @@-   @-   @-  A-  pA-   A-  @@-   A-  @@-  À@-  @@-  €@-   @-  @@-  @@-   @-  @@-   @-  @@-   @-   @-   @-  PA-  0A-   @-  €@-  @@-  €@-   @-   @-  @@-  @@-  À@-  €@-   @-  @@-  @@-  A-  à@-  À@-   @-  À@-  €@-  à@-  €@-   @-   @-   @-  @@-   @-   @-   @-   @-  €@-  @@-   @-   @-   @-   @-  €@-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-   @-  @@-  €@-   @-   @-   @-  À@-   @-  @@-  @@-   @-   @-   @-  @@-   A-  €@-   @-  €@-   @-  €@-   @-   @-   @-  @@-   @-   @-  @@-  A-   @-   @-   @-   @-   @-   @0 000000000	0
+0000000000000000000000 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~00€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹0Œ00000‘0’0“0”0•0–0—0˜0™0š0›0œ000Ÿ0 0¡0¢0£0¤0¥0¦0§0¨0©0ª0«0¬0­0®0¯0°0±0²0³0´0µ0¶0·0¸0¹0º0»0¼0½0¾0¿0À0Á0Â0Ã0Ä0Å0Æ0Ç0È0É0Ê0Ë0Ì0Í0Î0Ï0Ğ0Ñ0Ò0Ó0Ô0Õ0Ö0×0Ø0Ù0Ú0Û0Ü0İ0Ş0ß0à0á0â0ã0ä0å0æ0ç0è0é0ê0ë0ì0í0î0ï0ğ0ñ0ò0ó0ô0õ0ö0÷0ø0ù0ú0û0ü0ı0ş0ÿ0€00‚0ƒ0„0…0†0‡0ˆ0‰0Š0‹8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 *$2c0ce84f-b655-4a14-af4f-c703c22d4c272@default_transaction

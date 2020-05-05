@@ -1,0 +1,71 @@
+{% extends 'navbar.html' %}
+{% load tz %}
+
+{% block title %}
+Thematic models
+{% endblock title %}
+
+{% block section %}
+<div class="container">
+    <h3>Thematic models</h3>
+    <table class="striped centered grey lighten-4">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Creator</th>
+                <th>Created</th>
+                <th>Num topics</th>
+                <th>Num tokens</th>
+                <th>phi-tau</th>
+                <th>theta-tau</th>
+                <th>decorr-tau</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tmodel in aPaginator %}
+            <tr>
+                <td>{{ tmodel.id }}</td>
+                <td><a href="/tmodel/{{tmodel.id}}">Thematic model №{{ tmodel.id }}</a></td>
+                <td>{{ tmodel.user.username }}</td>
+                {% timezone "Asia/Almaty" %}
+                <td>{{ tmodel.created|date:"M d, Y"}}</td>
+                {% endtimezone %}
+                <td>{{ tmodel.num_topics}}</td>
+                <td>{{ tmodel.num_tokens}}</td>
+                <td>{{ tmodel.phi_tau}}</td>
+                <td>{{ tmodel.theta_tau}}</td>
+                <td>{{ tmodel.decorr_tau}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if aPaginator.paginator.num_pages > 1 %}
+    <ul class="pagination center-align">
+        {% if aPaginator.has_previous %}
+        <li><a href="?page=1"><i class="material-icons">fast_rewind</i></a></li>
+        <li><a href="?page={{ aPaginator.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+        {% endif %}
+        <li>
+            <a>
+                Page
+            </a>
+        <li class="active teal darken-4">
+            <a>{{ aPaginator.number }}</a>
+        </li>
+        <li>
+            <a> of {{ aPaginator.paginator.num_pages }}.</a>
+        </li>
+        </li>
+        {% if aPaginator.has_next %}
+        <li class="waves-effect"><a href="?page={{ aPaginator.next_page_number }}"><i
+                    class="material-icons">chevron_right</i></a></li>
+        <li class="waves-effect"><a href="?page={{ aPaginator.paginator.num_pages }}"><i
+                    class="material-icons">fast_forward</i></a></li>
+        {% endif %}
+    </ul>
+    {% endif %}
+</div>
+
+{% endblock section %}
