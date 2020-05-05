@@ -1,0 +1,10 @@
+Log file created at: 2020/04/26 19:32:50
+Running on machine: DESKTOP-0B3OVK3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0426 19:32:50.728662  8976 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:35:20.095214 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:35:54.170538 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:36:42.005853 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:37:51.884234 16352 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:38:25.682826  4500 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+W0426 19:40:19.477066  4500 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch

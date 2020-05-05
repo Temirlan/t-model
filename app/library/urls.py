@@ -30,6 +30,8 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
     path('documents/', include('documents.urls')),
     path('document/', include('document.urls')),
+    path('tmodel/', include('tmodel.urls')),
+    path('tmodels/', include('tmodels.urls')),
 ]
 
 if settings.DEBUG:

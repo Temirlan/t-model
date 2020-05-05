@@ -6,9 +6,15 @@ import numpy as np
 # from nltk.corpus import brown
 import pymystem3
 from collections import OrderedDict
+import artm
+from ppretty import ppretty
 
 nltk.download('punkt')
 nltk.download('stopwords')
+
+TARGET_FOLDER = 'temp/target_folder'
+COLLECTION_PATH = 'temp/preprocessing/colletion.txt'
+BAG_OF_WORDS_PATH = 'temp/preprocessing/bag_of_words.txt'
 
 
 def save_bag_of_words(path: str):
@@ -16,9 +22,7 @@ def save_bag_of_words(path: str):
   stop_words = nltk.corpus.stopwords.words('russian')
   mystem = pymystem3.Mystem()
 
-  file_object = open('temp/preprocessing/bag_of_words.txt',
-                     'w',
-                     encoding="utf-8")
+  file_object = open(BAG_OF_WORDS_PATH, 'w', encoding="utf-8")
 
   text = " "
   #converterUTF8(filename)
@@ -83,3 +87,61 @@ def prepare_coords(coords: dict, title_doc) -> OrderedDict:
     data_source["data"].append({"label": key, "value": value})
 
   return data_source
+
+
+def gluing_bag_of_words(docs):
+  """ Gluing files """
+  with open(COLLECTION_PATH, 'wt', encoding='utf8') as out:
+    all_data = ''.join([
+        open('{}'.format(item.text), encoding='utf8').read() for item in docs
+    ])
+    out.write(all_data)
+
+
+def create_thematic_model(checked_list, num_topics, num_tokens, phi_tau,
+                          theta_tau, decorr_tau):
+  """ Create a thematic model """
+  gluing_bag_of_words(checked_list)
+
+  batch_vectorizer = artm.BatchVectorizer(data_path=COLLECTION_PATH,
+                                          data_format='vowpal_wabbit',
+                                          target_folder=TARGET_FOLDER,
+                                          batch_size=len(checked_list))
+  dictionary = artm.Dictionary(data_path=TARGET_FOLDER)
+  model = artm.ARTM(
+      num_topics=num_topics,
+      num_document_passes=len(checked_list),
+      dictionary=dictionary,
+      regularizers=[
+          artm.SmoothSparsePhiRegularizer(name='sparse_phi_regularizer',
+                                          tau=phi_tau),
+          artm.SmoothSparseThetaRegularizer(name='sparse_theta_regularizer',
+                                            tau=theta_tau),
+          artm.DecorrelatorPhiRegularizer(name='decorrelator_phi_regularizer',
+                                          tau=decorr_tau),
+      ],
+      scores=[
+          artm.PerplexityScore(name='perplexity_score', dictionary=dictionary),
+          artm.SparsityPhiScore(name='sparsity_phi_score'),
+          artm.SparsityThetaScore(name='sparsity_theta_score'),
+          artm.TopTokensScore(name='top_tokens_score', num_tokens=num_tokens)
+      ])
+
+  model.fit_offline(batch_vectorizer=batch_vectorizer,
+                    num_collection_passes=len(checked_list))
+
+  top_tokens = model.score_tracker['top_tokens_score']
+
+  topic_dictionary = OrderedDict()
+
+  for topic_name in model.topic_names:
+    list_name = []
+    for (token, weight) in zip(top_tokens.last_tokens[topic_name],
+                               top_tokens.last_weights[topic_name]):
+      list_name.append(token + '-' + str(round(weight, 3)))
+    topic_dictionary[str(topic_name)] = list_name
+
+  return model.score_tracker[
+      'perplexity_score'].last_value, model.score_tracker[
+          'sparsity_phi_score'].last_value, model.score_tracker[
+              'sparsity_theta_score'].last_value, topic_dictionary

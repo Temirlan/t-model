@@ -60,6 +60,8 @@ def document(request, doc_id):
       doc.is_parsed = True
       doc.save()
 
+      return redirect('document', doc_id)
+
   return render(request, 'document/document.html', {
       'doc': doc,
       'filename': filename,

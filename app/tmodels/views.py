@@ -4,21 +4,18 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
-from document.models import Document
+from tmodel.models import ThematicModel
 
 
 @login_required(login_url='/accounts/login/')
 def index(request):
-  """ Output documents """
-  lists = Document.objects.all()
-
-  if request.GET.get('deleteId'):
-    Document.objects.filter(id=request.GET.get('deleteId')).delete()
-    return redirect('/documents')
+  """ Output thematic models """
+  lists = ThematicModel.objects.all()
 
   paginator = Paginator(lists, 10)
 
   page = request.GET.get('page')
+
   try:
     a_paginator = paginator.page(page)
   except PageNotAnInteger:
@@ -27,5 +24,4 @@ def index(request):
     # If page is out of range (e.g. 9999), deliver last page of results.
     a_paginator = paginator.page(paginator.num_pages)
 
-  return render(request, 'documents/documents.html',
-                {"aPaginator": a_paginator})
+  return render(request, 'tmodel/tmodels.html', {"aPaginator": a_paginator})

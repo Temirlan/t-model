@@ -1,0 +1,4 @@
+Log file created at: 2020/05/05 14:55:23
+Running on machine: DESKTOP-0B3OVK3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0505 14:55:23.832027  2996 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
