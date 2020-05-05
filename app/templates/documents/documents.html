@@ -1,0 +1,73 @@
+{% extends 'navbar.html' %}
+{% load tz %}
+
+{% block title %}
+Documents
+{% endblock title %}
+
+{% block section %}
+<div class="container">
+    <h3>Documents</h3>
+    <table class="striped centered grey lighten-4">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Date of upload</th>
+                <th>Loader</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for document in aPaginator %}
+            <tr>
+                <td>{{ document.id }}</td>
+                <td><a href="/document/{{document.id}}">{{ document.name }}</a></td>
+                <td>{{ document.author }}</td>
+                {% timezone "Asia/Almaty" %}
+                <td>{{ document.created|date:"M d, Y"}}</td>
+                {% endtimezone %}
+                <td>{{ document.user.username }}</td>
+                <td>
+                    {% if document.is_parsed %}<span class="new badge blue"
+                        data-badge-caption="">parsed</span>{% endif %}
+                    {% if not document.is_parsed %}<span class="new badge red" data-badge-caption="">no
+                        parsed</span>{% endif %}
+                </td>
+                <td>
+                    <a href="?deleteId={{document.id}}"><i class="material-icons red-text text-darken-4">cancel</i></a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if aPaginator.paginator.num_pages > 1 %}
+    <ul class="pagination center-align">
+        {% if aPaginator.has_previous %}
+        <li><a href="?page=1"><i class="material-icons">fast_rewind</i></a></li>
+        <li><a href="?page={{ aPaginator.previous_page_number }}"><i class="material-icons">chevron_left</i></a></li>
+        {% endif %}
+        <li>
+            <a>
+                Page
+            </a>
+        <li class="active teal darken-4">
+            <a>{{ aPaginator.number }}</a>
+        </li>
+        <li>
+            <a> of {{ aPaginator.paginator.num_pages }}.</a>
+        </li>
+        </li>
+        {% if aPaginator.has_next %}
+        <li class="waves-effect"><a href="?page={{ aPaginator.next_page_number }}"><i
+                    class="material-icons">chevron_right</i></a></li>
+        <li class="waves-effect"><a href="?page={{ aPaginator.paginator.num_pages }}"><i
+                    class="material-icons">fast_forward</i></a></li>
+        {% endif %}
+    </ul>
+    {% endif %}
+</div>
+
+{% endblock section %}

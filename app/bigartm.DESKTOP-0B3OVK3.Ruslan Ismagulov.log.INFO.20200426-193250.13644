@@ -1,0 +1,875 @@
+Log file created at: 2020/04/26 19:32:50
+Running on machine: DESKTOP-0B3OVK3
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0426 19:32:50.628664 13732 c_interface.cc:127] Logging enabled to .
+I0426 19:32:50.630661 13732 c_interface.cc:128] BigARTM version: v0.10.1
+I0426 19:32:50.631659 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:32:50.631659 13732 c_interface.cc:274] Creating MasterModel (id=1)...
+I0426 19:32:50.651657 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:32:50.728662  8976 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:32:50.741655 13732 c_interface.cc:375] Pass bed63f3d-c8ed-4982-a43e-7c6e44326550 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:50.742663 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=bed63f3d-c8ed-4982-a43e-7c6e44326550, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:32:50.742663 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:32:50.767657 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:32:50.785673 13732 dictionary_operations.cc:611] Dictionary name='bed63f3d-c8ed-4982-a43e-7c6e44326550' contains entries: @default_class:4736; 
+I0426 19:32:50.787660 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:32:50.787660 13732 c_interface.cc:274] Creating MasterModel (id=2)...
+I0426 19:32:50.788662 13732 c_interface.cc:375] Pass 082e409b-1fd5-423b-8786-33583b5d3a19 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:50.788662 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=082e409b-1fd5-423b-8786-33583b5d3a19, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:32:50.788662 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:32:50.798655 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:32:50.815657 13732 dictionary_operations.cc:611] Dictionary name='082e409b-1fd5-423b-8786-33583b5d3a19' contains entries: @default_class:4736; 
+I0426 19:32:50.817665 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=4, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:32:50.817665 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.819658 13732 c_interface.cc:274] Creating MasterModel (id=3)...
+I0426 19:32:50.820662  8188 processor.cc:58] Processor thread started
+I0426 19:32:50.820662 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.820662 10408 processor.cc:58] Processor thread started
+I0426 19:32:50.820662 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.820662 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.820662 10368 processor.cc:58] Processor thread started
+I0426 19:32:50.821658 15304 processor.cc:58] Processor thread started
+I0426 19:32:50.821658 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.822683 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.822683 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.823674 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.823674 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.823674 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.823674 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.823674 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.823674 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.824666 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:0.5), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.824666 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.824666 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.824666 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:32:50.824666 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:0.5), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.824666 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.824666 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.824666 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:32:50.824666 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:32:50.825659 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:0.5), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:32:50.825659 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:32:50.825659 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19
+I0426 19:32:50.825659 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:32:50.825659 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:32:50.825659 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:32:50.825659 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:50.826668 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:50.826668 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:32:50.863795 10408 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:50.863795  8188 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:50.863795 10368 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:50.867650 15304 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:50.872670 13732 master_component.cc:699] InitializeModel() created matrix pwt with 4 topics and 4736 tokens; 
+I0426 19:32:50.872670 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=082e409b-1fd5-423b-8786-33583b5d3a19, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:32:50.915796 13732 master_component.cc:699] InitializeModel() created matrix nwt with 4 topics and 4736 tokens; 
+I0426 19:32:50.916797 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 424 bytes...
+I0426 19:32:50.928658 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:32:50.929690 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:0.5), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:32:50.930655 13732 master_component.cc:863] Batches count (=1) is smaller than num processors (=4), which may cause suboptimal performance.
+I0426 19:32:50.933787 10368 processor.cc:81] Processing queue has data, processing started
+I0426 19:32:50.938657 10368 processor.cc:158] Processor: start processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:50.976652 10368 processor.cc:293] Processor: complete processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:50.977663 10368 cuckoo_watch.h:45] 44ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 11ms in InferThetaAndUpdateNwtSparse; 11ms in CalculateScore(perplexity_score); 3ms in CalculateScore(sparsity_theta_score); 11ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:32:50.980778 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:32:50.980778 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:32:50.996852 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:32:50.996852 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:32:50.997804 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:32:51.000797 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:32:51.010659 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:32:51.013664 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:32:51.014663 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:32:51.014663 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:0.5), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:32:51.017828  8188 processor.cc:81] Processing queue has data, processing started
+I0426 19:32:51.022796  8188 processor.cc:158] Processor: start processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.029662 10368 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:51.062654  8188 processor.cc:293] Processor: complete processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.063657  8188 cuckoo_watch.h:45] 46ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 5ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 12ms in InferThetaAndUpdateNwtSparse; 11ms in CalculateScore(perplexity_score); 3ms in CalculateScore(sparsity_theta_score); 12ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:32:51.066790 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:32:51.066790 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:32:51.083659 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:32:51.083659 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:32:51.083659 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:32:51.087801 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:32:51.095803 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:32:51.098675 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:32:51.098675 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:32:51.099658 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:0.5), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:32:51.107784 15304 processor.cc:81] Processing queue has data, processing started
+I0426 19:32:51.111655 15304 processor.cc:158] Processor: start processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.133656  8188 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:51.154662 15304 processor.cc:293] Processor: complete processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.155658 15304 cuckoo_watch.h:45] 48ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 13ms in InferThetaAndUpdateNwtSparse; 11ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 13ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:32:51.156657 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:32:51.156657 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:32:51.177657 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:32:51.177657 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:32:51.177657 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:32:51.183668 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:32:51.193661 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:32:51.196660 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:32:51.196660 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:32:51.196660 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:0.5), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:32:51.202661 10408 processor.cc:81] Processing queue has data, processing started
+I0426 19:32:51.205658 10408 processor.cc:158] Processor: start processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.210657 15304 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:51.250797 10408 processor.cc:293] Processor: complete processing batch 7a4d9d4a-d13a-48d7-807a-e1186b17155f into model nwt
+I0426 19:32:51.252665 10408 cuckoo_watch.h:45] 50ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 14ms in InferThetaAndUpdateNwtSparse; 12ms in CalculateScore(perplexity_score); 5ms in CalculateScore(sparsity_theta_score); 12ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:32:51.257797 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:32:51.257797 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:32:51.274796 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:32:51.274796 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:32:51.274796 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:32:51.278663 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:32:51.287659 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:32:51.291656 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:32:51.291656 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.295655 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.299654 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.303800 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.308651 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.311650 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.314649 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.317649 10408 processor.cc:74] No data in processing queue, waiting...
+I0426 19:32:51.320793 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4873 bytes...
+I0426 19:32:51.324676 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 196 bytes...
+I0426 19:32:51.324676 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:32:51.325659 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:32:51.326664 13732 c_interface.cc:375] Pass bed63f3d-c8ed-4982-a43e-7c6e44326550 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:51.328655 13732 c_interface.cc:339] Disposing MasterComponent (id=1)...
+I0426 19:32:51.329666 13732 c_interface.cc:375] Pass 082e409b-1fd5-423b-8786-33583b5d3a19 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:32:51.330698 13732 c_interface.cc:339] Disposing MasterComponent (id=2)...
+I0426 19:32:51.332661  8188 processor.cc:66] Processor thread stopped
+I0426 19:32:51.332661  8188 processor.cc:67] Total number of processed batches: 1
+I0426 19:32:51.334658 10368 processor.cc:66] Processor thread stopped
+I0426 19:32:51.334658 10368 processor.cc:67] Total number of processed batches: 1
+I0426 19:32:51.336659 10408 processor.cc:66] Processor thread stopped
+I0426 19:32:51.336659 10408 processor.cc:67] Total number of processed batches: 1
+I0426 19:32:51.337674 15304 processor.cc:66] Processor thread stopped
+I0426 19:32:51.337674 15304 processor.cc:67] Total number of processed batches: 1
+I0426 19:32:51.345659 13732 c_interface.cc:339] Disposing MasterComponent (id=3)...
+I0426 19:35:19.958313 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:19.959316 13732 c_interface.cc:274] Creating MasterModel (id=4)...
+I0426 19:35:19.994220 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:35:20.095214 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:35:20.106230 13732 c_interface.cc:375] Pass ed79f364-55cd-4dd7-ad40-ac2c42b6c24c to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.107226 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=ed79f364-55cd-4dd7-ad40-ac2c42b6c24c, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:35:20.107226 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:35:20.137212 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:35:20.157218 13732 dictionary_operations.cc:611] Dictionary name='ed79f364-55cd-4dd7-ad40-ac2c42b6c24c' contains entries: @default_class:4736; 
+I0426 19:35:20.160221 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:20.160221 13732 c_interface.cc:274] Creating MasterModel (id=5)...
+I0426 19:35:20.160221 13732 c_interface.cc:375] Pass b45a40a2-9596-40d2-8a1a-2d01445aa382 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.160221 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=b45a40a2-9596-40d2-8a1a-2d01445aa382, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:35:20.160221 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:35:20.174223 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:35:20.193228 13732 dictionary_operations.cc:611] Dictionary name='b45a40a2-9596-40d2-8a1a-2d01445aa382' contains entries: @default_class:4736; 
+I0426 19:35:20.195221 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=4, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:20.195221 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.195221 13732 c_interface.cc:274] Creating MasterModel (id=6)...
+I0426 19:35:20.196218 10504 processor.cc:58] Processor thread started
+I0426 19:35:20.196218 15448 processor.cc:58] Processor thread started
+I0426 19:35:20.196218 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.196218 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.196218 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.196218 12892 processor.cc:58] Processor thread started
+I0426 19:35:20.197216 14172 processor.cc:58] Processor thread started
+I0426 19:35:20.197216 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.197216 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.197216 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.198318 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.198318 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.198318 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.199216 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.199216 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.199216 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.199216 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:-0.3), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.199216 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.199216 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.199216 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:20.200215 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:-0.3), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.200215 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.200215 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.200215 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:20.200215 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:35:20.201216 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:-0.3), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:20.201216 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:20.201216 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382
+I0426 19:35:20.201216 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:20.201216 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:35:20.201216 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:35:20.201216 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.201216 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.202220 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.239217 12892 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.239217 14172 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.239217 15448 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.246209 10504 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.251226 13732 master_component.cc:699] InitializeModel() created matrix pwt with 4 topics and 4736 tokens; 
+I0426 19:35:20.251226 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=b45a40a2-9596-40d2-8a1a-2d01445aa382, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.300222 13732 master_component.cc:699] InitializeModel() created matrix nwt with 4 topics and 4736 tokens; 
+I0426 19:35:20.300222 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 424 bytes...
+I0426 19:35:20.301354 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.301354 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:-0.3), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:20.307219 15448 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:20.310215 15448 processor.cc:158] Processor: start processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.350214 15448 processor.cc:293] Processor: complete processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.351224 15448 cuckoo_watch.h:45] 44ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 11ms in InferThetaAndUpdateNwtSparse; 12ms in CalculateScore(perplexity_score); 6ms in CalculateScore(sparsity_theta_score); 8ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:20.357225 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:20.357225 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:20.378222 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:20.378222 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:20.378222 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:20.382215 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:20.391360 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:20.394217 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:20.395215 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.395215 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:-0.3), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:20.404212 14172 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:20.408231 14172 processor.cc:158] Processor: start processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.417212 15448 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.453222 14172 processor.cc:293] Processor: complete processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.454218 14172 cuckoo_watch.h:45] 49ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 13ms in InferThetaAndUpdateNwtSparse; 14ms in CalculateScore(perplexity_score); 5ms in CalculateScore(sparsity_theta_score); 9ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:20.455217 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:20.455217 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:20.475214 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:20.475214 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:20.475214 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:20.480219 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:20.490226 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:20.494215 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:20.494215 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.494215 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:-0.3), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:20.497221 15448 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:20.502218 15448 processor.cc:158] Processor: start processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.506217 14172 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.547220 15448 processor.cc:293] Processor: complete processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.549218 15448 cuckoo_watch.h:45] 52ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 14ms in InferThetaAndUpdateNwtSparse; 14ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 11ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:20.549218 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:20.550223 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:20.569217 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:20.569217 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:20.569217 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:20.575222 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:20.585224 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:20.587218 15448 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.590219 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:20.591220 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:20.591220 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:-0.3), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:20.596210 12892 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:20.600214 12892 processor.cc:158] Processor: start processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.646210 12892 processor.cc:293] Processor: complete processing batch f6632c06-7485-4cd9-81db-608932954fa9 into model nwt
+I0426 19:35:20.647222 12892 cuckoo_watch.h:45] 51ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 15ms in InferThetaAndUpdateNwtSparse; 14ms in CalculateScore(perplexity_score); 3ms in CalculateScore(sparsity_theta_score); 12ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:20.649214 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:20.649214 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:20.669219 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:20.669219 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:20.669219 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:20.676220 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:20.685215 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:20.690214 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:20.690214 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.694223 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.697358 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.702220 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.703363 12892 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:20.706220 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.711210 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.714216 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.718214 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4877 bytes...
+I0426 19:35:20.723217 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 196 bytes...
+I0426 19:35:20.724364 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 152 bytes...
+I0426 19:35:20.724364 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:35:20.725291 13732 c_interface.cc:375] Pass ed79f364-55cd-4dd7-ad40-ac2c42b6c24c to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.728224 13732 c_interface.cc:339] Disposing MasterComponent (id=4)...
+I0426 19:35:20.728224 13732 c_interface.cc:375] Pass b45a40a2-9596-40d2-8a1a-2d01445aa382 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:20.729216 13732 c_interface.cc:339] Disposing MasterComponent (id=5)...
+I0426 19:35:20.733356 10504 processor.cc:66] Processor thread stopped
+I0426 19:35:20.733356 10504 processor.cc:67] Total number of processed batches: 0
+I0426 19:35:20.736356 15448 processor.cc:66] Processor thread stopped
+I0426 19:35:20.736356 15448 processor.cc:67] Total number of processed batches: 2
+I0426 19:35:20.740218 12892 processor.cc:66] Processor thread stopped
+I0426 19:35:20.740218 12892 processor.cc:67] Total number of processed batches: 1
+I0426 19:35:20.747364 14172 processor.cc:66] Processor thread stopped
+I0426 19:35:20.747364 14172 processor.cc:67] Total number of processed batches: 1
+I0426 19:35:20.756214 13732 c_interface.cc:339] Disposing MasterComponent (id=6)...
+I0426 19:35:53.574546 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:53.576535 13732 c_interface.cc:274] Creating MasterModel (id=7)...
+I0426 19:35:53.633538 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:35:54.170538 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:35:54.193540 13732 c_interface.cc:375] Pass 7d74d4f2-8512-4c99-9009-5978793b7df3 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.194545 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=7d74d4f2-8512-4c99-9009-5978793b7df3, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:35:54.195539 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:35:54.252535 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:35:54.270525 13732 dictionary_operations.cc:611] Dictionary name='7d74d4f2-8512-4c99-9009-5978793b7df3' contains entries: @default_class:4736; 
+I0426 19:35:54.273533 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:54.273533 13732 c_interface.cc:274] Creating MasterModel (id=8)...
+I0426 19:35:54.274530 13732 c_interface.cc:375] Pass 379b8c51-aa68-46ea-8be4-17daedf45017 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.274530 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=379b8c51-aa68-46ea-8be4-17daedf45017, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:35:54.275534 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:35:54.286536 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:35:54.309525 13732 dictionary_operations.cc:611] Dictionary name='379b8c51-aa68-46ea-8be4-17daedf45017' contains entries: @default_class:4736; 
+I0426 19:35:54.312536 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=4, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:35:54.312536 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.313529 13732 c_interface.cc:274] Creating MasterModel (id=9)...
+I0426 19:35:54.314529 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.314529 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.314529 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.314529 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.314529 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.314529 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.316529 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.316529 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.316529 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.317536 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.317536 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.317536 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.318536 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.318536 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.318536 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.318536 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:54.319531 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.319531 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.319531 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.319531 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:54.319531 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:35:54.319531 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=4, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:35:54.319531 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:35:54.319531 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017
+I0426 19:35:54.319531 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:35:54.319531 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:35:54.319531 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:35:54.323529 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.323529 14904 processor.cc:58] Processor thread started
+I0426 19:35:54.323529 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.324532 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.329535  8928 processor.cc:58] Processor thread started
+I0426 19:35:54.329535 10532 processor.cc:58] Processor thread started
+I0426 19:35:54.330524  3396 processor.cc:58] Processor thread started
+I0426 19:35:54.372527 10532 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.372527  8928 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.372527  3396 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.379537 13732 master_component.cc:699] InitializeModel() created matrix pwt with 4 topics and 4736 tokens; 
+I0426 19:35:54.380539 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=379b8c51-aa68-46ea-8be4-17daedf45017, topic_name_size=4, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.444528 13732 master_component.cc:699] InitializeModel() created matrix nwt with 4 topics and 4736 tokens; 
+I0426 19:35:54.445530 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 424 bytes...
+I0426 19:35:54.446527 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.446527 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:54.450529 10532 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:54.453532 10532 processor.cc:158] Processor: start processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.514536 14904 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.519532 10532 processor.cc:293] Processor: complete processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.520529 10532 cuckoo_watch.h:45] 70ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 15ms in InferThetaAndUpdateNwtSparse; 32ms in CalculateScore(perplexity_score); 6ms in CalculateScore(sparsity_theta_score); 10ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:54.522529 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:54.522529 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:54.541528 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:54.541528 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:54.541528 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:54.545527 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:54.556543 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:54.559530 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:54.560533 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.560533 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:54.564527  8928 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:54.567533  8928 processor.cc:158] Processor: start processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.573535 10532 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.613523  8928 processor.cc:293] Processor: complete processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.614536  8928 cuckoo_watch.h:45] 50ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 13ms in InferThetaAndUpdateNwtSparse; 13ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 13ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:54.616523 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:54.616523 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:54.637528 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:54.637528 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:54.637528 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:54.643532 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:54.653527 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:54.660529 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:54.660529 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.660529 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:54.666527  3396 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:54.669526  3396 processor.cc:158] Processor: start processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.670533  8928 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.719538  3396 processor.cc:293] Processor: complete processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.721532  3396 cuckoo_watch.h:45] 54ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 14ms in InferThetaAndUpdateNwtSparse; 13ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 15ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:54.721532 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:54.721532 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:54.742532 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:54.742532 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:54.742532 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:54.746527 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:54.757531 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:54.760529  3396 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.760529 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:54.761534 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:35:54.761534 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:35:54.764533  3396 processor.cc:81] Processing queue has data, processing started
+I0426 19:35:54.767537  3396 processor.cc:158] Processor: start processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.814539  3396 processor.cc:293] Processor: complete processing batch 0f1fa982-124f-409e-a50c-2a6f34dd4b3e into model nwt
+I0426 19:35:54.815531  3396 cuckoo_watch.h:45] 51ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 14ms in InferThetaAndUpdateNwtSparse; 12ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 14ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:35:54.816668 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:35:54.816668 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:35:54.835528 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:35:54.835528 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:35:54.835528 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:35:54.843533 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:35:54.851529 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:35:54.854528 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:35:54.854528 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.859519 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.863519 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.866519 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.870524  3396 processor.cc:74] No data in processing queue, waiting...
+I0426 19:35:54.871532 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.877521 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.881526 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.885530 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 4889 bytes...
+I0426 19:35:54.889524 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 196 bytes...
+I0426 19:35:54.890527 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:35:54.891530 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:35:54.892529 13732 c_interface.cc:375] Pass 7d74d4f2-8512-4c99-9009-5978793b7df3 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.894526 13732 c_interface.cc:339] Disposing MasterComponent (id=7)...
+I0426 19:35:54.894526 13732 c_interface.cc:375] Pass 379b8c51-aa68-46ea-8be4-17daedf45017 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:35:54.896526 13732 c_interface.cc:339] Disposing MasterComponent (id=8)...
+I0426 19:35:54.897529 14904 processor.cc:66] Processor thread stopped
+I0426 19:35:54.897529 14904 processor.cc:67] Total number of processed batches: 0
+I0426 19:35:54.900519  8928 processor.cc:66] Processor thread stopped
+I0426 19:35:54.900519  8928 processor.cc:67] Total number of processed batches: 1
+I0426 19:35:54.908532 10532 processor.cc:66] Processor thread stopped
+I0426 19:35:54.908532 10532 processor.cc:67] Total number of processed batches: 1
+I0426 19:35:54.909536  3396 processor.cc:66] Processor thread stopped
+I0426 19:35:54.909536  3396 processor.cc:67] Total number of processed batches: 2
+I0426 19:35:54.917527 13732 c_interface.cc:339] Disposing MasterComponent (id=9)...
+I0426 19:36:41.471853 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:36:41.471853 13732 c_interface.cc:274] Creating MasterModel (id=10)...
+I0426 19:36:41.493857 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:36:42.005853 15712 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:36:42.018846 13732 c_interface.cc:375] Pass 13976cd1-7cc0-47d8-b317-2379302a06a6 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.018846 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=13976cd1-7cc0-47d8-b317-2379302a06a6, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:36:42.019850 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:36:42.046852 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:36:42.064846 13732 dictionary_operations.cc:611] Dictionary name='13976cd1-7cc0-47d8-b317-2379302a06a6' contains entries: @default_class:4736; 
+I0426 19:36:42.067859 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:36:42.067859 13732 c_interface.cc:274] Creating MasterModel (id=11)...
+I0426 19:36:42.067859 13732 c_interface.cc:375] Pass c24b5365-11a0-4751-96de-86f6f05d0150 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.068845 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=c24b5365-11a0-4751-96de-86f6f05d0150, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:36:42.068845 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:36:42.082844 13732 dictionary_operations.cc:331] Find 4736 unique tokens in 4 items
+I0426 19:36:42.102859 13732 dictionary_operations.cc:611] Dictionary name='c24b5365-11a0-4751-96de-86f6f05d0150' contains entries: @default_class:4736; 
+I0426 19:36:42.104849 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=2, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:36:42.104849 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.105856 13732 c_interface.cc:274] Creating MasterModel (id=12)...
+I0426 19:36:42.106851 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.106851 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.106851 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.107851  5776 processor.cc:58] Processor thread started
+I0426 19:36:42.107851 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.107851 12040 processor.cc:58] Processor thread started
+I0426 19:36:42.107851 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.107851 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.107851   340 processor.cc:58] Processor thread started
+I0426 19:36:42.107851 16036 processor.cc:58] Processor thread started
+I0426 19:36:42.108856 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.108856 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.108856 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.109858 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.109858 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.109858 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.109858 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.109858 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.109858 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.110847 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:36:42.111847 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.111847 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.111847 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.111847 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:36:42.111847 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:36:42.111847 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=4, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:36:42.112846 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:36:42.112846 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150
+I0426 19:36:42.112846 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:36:42.112846 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:36:42.112846 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:36:42.112846 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.112846 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.112846 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.147847 16036 processor.cc:74] No data in processing queue, waiting...
+I0426 19:36:42.147847 12040 processor.cc:74] No data in processing queue, waiting...
+I0426 19:36:42.147847   340 processor.cc:74] No data in processing queue, waiting...
+I0426 19:36:42.156849 13732 master_component.cc:699] InitializeModel() created matrix pwt with 2 topics and 4736 tokens; 
+I0426 19:36:42.156849 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=c24b5365-11a0-4751-96de-86f6f05d0150, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.162849  5776 processor.cc:74] No data in processing queue, waiting...
+I0426 19:36:42.201853 13732 master_component.cc:699] InitializeModel() created matrix nwt with 2 topics and 4736 tokens; 
+I0426 19:36:42.201853 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 406 bytes...
+I0426 19:36:42.202853 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.202853 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:36:42.206849   340 processor.cc:81] Processing queue has data, processing started
+I0426 19:36:42.210850   340 processor.cc:158] Processor: start processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.252847   340 processor.cc:293] Processor: complete processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.253856   340 cuckoo_watch.h:45] 47ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 10ms in InferThetaAndUpdateNwtSparse; 13ms in CalculateScore(perplexity_score); 5ms in CalculateScore(sparsity_theta_score); 11ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:36:42.254988 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:36:42.254988 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:36:42.271854 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:36:42.271854 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:36:42.271854 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:36:42.275848 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:36:42.282852 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:36:42.285847 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:36:42.285847 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.285847 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:36:42.289842 12040 processor.cc:81] Processing queue has data, processing started
+I0426 19:36:42.294854 12040 processor.cc:158] Processor: start processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.309847   340 processor.cc:74] No data in processing queue, waiting...
+I0426 19:36:42.333850 12040 processor.cc:293] Processor: complete processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.334848 12040 cuckoo_watch.h:45] 45ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 5ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 10ms in InferThetaAndUpdateNwtSparse; 11ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 12ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:36:42.336848 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:36:42.336848 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:36:42.352854 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:36:42.352854 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:36:42.352854 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:36:42.355849 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:36:42.364859 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:36:42.367848 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:36:42.367848 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.367848 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:36:42.374850 12040 processor.cc:158] Processor: start processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.433849 12040 processor.cc:293] Processor: complete processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.435853 12040 cuckoo_watch.h:45] 65ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 18ms in InferThetaAndUpdateNwtSparse; 20ms in CalculateScore(perplexity_score); 4ms in CalculateScore(sparsity_theta_score); 15ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:36:42.435853 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:36:42.435853 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:36:42.454854 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:36:42.454854 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:36:42.454854 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:36:42.458854 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:36:42.466851 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:36:42.469848 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:36:42.469848 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:36:42.469848 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=4, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:36:42.476858 12040 processor.cc:158] Processor: start processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.516841 12040 processor.cc:293] Processor: complete processing batch 7f606ce7-afe8-426a-8624-a8c41fc38c94 into model nwt
+I0426 19:36:42.517841 12040 cuckoo_watch.h:45] 45ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 4ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 11ms in InferThetaAndUpdateNwtSparse; 13ms in CalculateScore(perplexity_score); 3ms in CalculateScore(sparsity_theta_score); 11ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:36:42.519840 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:36:42.519840 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:36:42.535851 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:36:42.535851 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:36:42.535851 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:36:42.538851 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:36:42.547847 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:36:42.550851 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=4, num_batches=1, token_weight=76689, token_weight_in_effect=76689
+I0426 19:36:42.551851 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 2504 bytes...
+I0426 19:36:42.552845 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 2504 bytes...
+I0426 19:36:42.554841 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 2504 bytes...
+I0426 19:36:42.557844 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 2504 bytes...
+I0426 19:36:42.560847 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 196 bytes...
+I0426 19:36:42.561844 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 144 bytes...
+I0426 19:36:42.561844 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 148 bytes...
+I0426 19:36:42.562844 13732 c_interface.cc:375] Pass 13976cd1-7cc0-47d8-b317-2379302a06a6 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.564842 13732 c_interface.cc:339] Disposing MasterComponent (id=10)...
+I0426 19:36:42.564842 13732 c_interface.cc:375] Pass c24b5365-11a0-4751-96de-86f6f05d0150 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:36:42.566843 13732 c_interface.cc:339] Disposing MasterComponent (id=11)...
+I0426 19:36:42.567840  5776 processor.cc:66] Processor thread stopped
+I0426 19:36:42.567840  5776 processor.cc:67] Total number of processed batches: 0
+I0426 19:36:42.569840 12040 processor.cc:66] Processor thread stopped
+I0426 19:36:42.569840 12040 processor.cc:67] Total number of processed batches: 3
+I0426 19:36:42.571842   340 processor.cc:66] Processor thread stopped
+I0426 19:36:42.571842   340 processor.cc:67] Total number of processed batches: 1
+I0426 19:36:42.572850 16036 processor.cc:66] Processor thread stopped
+I0426 19:36:42.572850 16036 processor.cc:67] Total number of processed batches: 0
+I0426 19:36:42.581845 13732 c_interface.cc:339] Disposing MasterComponent (id=12)...
+I0426 19:37:51.855362 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:37:51.855362 13732 c_interface.cc:274] Creating MasterModel (id=13)...
+I0426 19:37:51.871232 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:37:51.884234 16352 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:37:51.963238 13732 c_interface.cc:375] Pass 85c7a02d-ca85-4829-b0e3-c700cfa5f7c0 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:51.963238 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=85c7a02d-ca85-4829-b0e3-c700cfa5f7c0, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:37:51.963238 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:37:51.983242 13732 dictionary_operations.cc:331] Find 523 unique tokens in 1 items
+I0426 19:37:51.985237 13732 dictionary_operations.cc:611] Dictionary name='85c7a02d-ca85-4829-b0e3-c700cfa5f7c0' contains entries: @default_class:523; 
+I0426 19:37:51.986243 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:37:51.986243 13732 c_interface.cc:274] Creating MasterModel (id=14)...
+I0426 19:37:51.986243 13732 c_interface.cc:375] Pass f16ad972-feb6-40c3-9d76-e6087605a4ba to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:51.986243 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=f16ad972-feb6-40c3-9d76-e6087605a4ba, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:37:51.987239 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:37:51.988238 13732 dictionary_operations.cc:331] Find 523 unique tokens in 1 items
+I0426 19:37:51.989226 13732 dictionary_operations.cc:611] Dictionary name='f16ad972-feb6-40c3-9d76-e6087605a4ba' contains entries: @default_class:523; 
+I0426 19:37:51.994241 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=1, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:37:51.994241 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.995241 13732 c_interface.cc:274] Creating MasterModel (id=15)...
+I0426 19:37:51.995241 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.995241 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.996240 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.996240 14852 processor.cc:58] Processor thread started
+I0426 19:37:51.996240  9888 processor.cc:58] Processor thread started
+I0426 19:37:51.996240 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.996240 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.996240 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.996240  1704 processor.cc:58] Processor thread started
+I0426 19:37:51.997231   600 processor.cc:58] Processor thread started
+I0426 19:37:51.997231 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.997231 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.997231 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.997231 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.997231 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.997231 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.998368 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, regularizer=(sparse_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.998368 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.998368 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.998368 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:37:51.999366 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:51.999366 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:51.999366 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:51.999366 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:37:51.999366 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:37:52.000365 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=1, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:37:52.000365 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:37:52.000365 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba
+I0426 19:37:52.001230 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:37:52.001230 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:37:52.001230 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:37:52.001230 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:52.001230 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:52.001230 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba, topic_name_size=1, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:37:52.005229 13732 master_component.cc:699] InitializeModel() created matrix pwt with 1 topics and 523 tokens; 
+I0426 19:37:52.006225 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=f16ad972-feb6-40c3-9d76-e6087605a4ba, topic_name_size=1, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:37:52.012231 13732 master_component.cc:699] InitializeModel() created matrix nwt with 1 topics and 523 tokens; 
+I0426 19:37:52.012231 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 397 bytes...
+I0426 19:37:52.014251 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:37:52.014251 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=1, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:37:52.017364  9888 processor.cc:158] Processor: start processing batch 535a369b-ab09-4077-b5bb-4f5656d3529e into model nwt
+I0426 19:37:52.022234  9888 processor.cc:293] Processor: complete processing batch 535a369b-ab09-4077-b5bb-4f5656d3529e into model nwt
+I0426 19:37:52.022234  9888 cuckoo_watch.h:45] 5ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 0ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 1ms in InferThetaAndUpdateNwtSparse; 1ms in CalculateScore(perplexity_score); 0ms in CalculateScore(sparsity_theta_score); 0ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:37:52.029228 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:37:52.029228 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:37:52.034243 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:37:52.034243 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:37:52.034243 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:37:52.034243 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:37:52.035249 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:37:52.036240 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=1, num_batches=1, token_weight=3008, token_weight_in_effect=3008
+I0426 19:37:52.036240 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 357 bytes...
+I0426 19:37:52.037233 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 357 bytes...
+I0426 19:37:52.038245 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 49 bytes...
+I0426 19:37:52.038245 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 36 bytes...
+I0426 19:37:52.038245 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 37 bytes...
+I0426 19:37:52.039247 13732 c_interface.cc:375] Pass 85c7a02d-ca85-4829-b0e3-c700cfa5f7c0 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:52.039247 13732 c_interface.cc:339] Disposing MasterComponent (id=13)...
+I0426 19:37:52.039247 13732 c_interface.cc:375] Pass f16ad972-feb6-40c3-9d76-e6087605a4ba to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:37:52.039247 13732 c_interface.cc:339] Disposing MasterComponent (id=14)...
+I0426 19:37:52.043237 14852 processor.cc:66] Processor thread stopped
+I0426 19:37:52.043237 14852 processor.cc:67] Total number of processed batches: 0
+I0426 19:37:52.047364  9888 processor.cc:66] Processor thread stopped
+I0426 19:37:52.047364  9888 processor.cc:67] Total number of processed batches: 1
+I0426 19:37:52.048369  1704 processor.cc:66] Processor thread stopped
+I0426 19:37:52.048369   600 processor.cc:74] No data in processing queue, waiting...
+I0426 19:37:52.048369  1704 processor.cc:67] Total number of processed batches: 0
+I0426 19:37:52.050349   600 processor.cc:66] Processor thread stopped
+I0426 19:37:52.050349   600 processor.cc:67] Total number of processed batches: 0
+I0426 19:37:52.051232 13732 c_interface.cc:339] Disposing MasterComponent (id=15)...
+I0426 19:38:25.334828 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:38:25.334828 13732 c_interface.cc:274] Creating MasterModel (id=16)...
+I0426 19:38:25.497830 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:38:25.682826  4500 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:38:25.685820 13732 c_interface.cc:375] Pass 88bcb4de-22e0-4574-8edc-59408ce24e11 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.686825 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=88bcb4de-22e0-4574-8edc-59408ce24e11, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:38:25.686825 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:38:25.713829 13732 dictionary_operations.cc:331] Find 523 unique tokens in 2 items
+I0426 19:38:25.715823 13732 dictionary_operations.cc:611] Dictionary name='88bcb4de-22e0-4574-8edc-59408ce24e11' contains entries: @default_class:523; 
+I0426 19:38:25.717833 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:38:25.717833 13732 c_interface.cc:274] Creating MasterModel (id=17)...
+I0426 19:38:25.717833 13732 c_interface.cc:375] Pass 83ddf269-7164-4499-8500-275c05a0cb1e to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.717833 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=83ddf269-7164-4499-8500-275c05a0cb1e, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:38:25.717833 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:38:25.719835 13732 dictionary_operations.cc:331] Find 523 unique tokens in 2 items
+I0426 19:38:25.721822 13732 dictionary_operations.cc:611] Dictionary name='83ddf269-7164-4499-8500-275c05a0cb1e' contains entries: @default_class:523; 
+I0426 19:38:25.725829 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=2, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:38:25.725829 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.726825 13732 c_interface.cc:274] Creating MasterModel (id=18)...
+I0426 19:38:25.727824 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.727824 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.727824 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.727824 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.727824 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.727824 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.728830 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.728830 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.728830 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.728830 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.728830 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.729831 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.729831 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.729831 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.729831 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.729831 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:38:25.730823 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.730823 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.730823 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.730823 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:38:25.730823 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:38:25.731830 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:1), regularizer=(sparse_theta_regularizer:1), regularizer=(decorrelator_phi_regularizer:1), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:38:25.731830 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:38:25.731830 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e
+I0426 19:38:25.731830 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:38:25.731830 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:38:25.731830 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:38:25.731830 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.731830 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.732822 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:38:25.737813 13732 master_component.cc:699] InitializeModel() created matrix pwt with 2 topics and 523 tokens; 
+I0426 19:38:25.737813 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=83ddf269-7164-4499-8500-275c05a0cb1e, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:38:25.744823 13732 master_component.cc:699] InitializeModel() created matrix nwt with 2 topics and 523 tokens; 
+I0426 19:38:25.744823 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 406 bytes...
+I0426 19:38:25.749826 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:38:25.749826 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=2, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:38:25.751827  2356 processor.cc:58] Processor thread started
+I0426 19:38:25.755822  2356 processor.cc:158] Processor: start processing batch 86d6aaa3-81f9-4f94-9cd3-e92dfee99a74 into model nwt
+I0426 19:38:25.763820  2356 processor.cc:293] Processor: complete processing batch 86d6aaa3-81f9-4f94-9cd3-e92dfee99a74 into model nwt
+I0426 19:38:25.763820  2356 cuckoo_watch.h:45] 11ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 3ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 1ms in InferThetaAndUpdateNwtSparse; 1ms in CalculateScore(perplexity_score); 1ms in CalculateScore(sparsity_theta_score); 2ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:38:25.764829 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:38:25.764829 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:38:25.764829  8480 processor.cc:58] Processor thread started
+I0426 19:38:25.764829 11392 processor.cc:58] Processor thread started
+I0426 19:38:25.764829 10624 processor.cc:58] Processor thread started
+I0426 19:38:25.766827 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:38:25.766827 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:38:25.766827 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:38:25.766827 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:38:25.767823 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:38:25.767823 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=2, num_batches=1, token_weight=6016, token_weight_in_effect=6016
+I0426 19:38:25.768833 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:38:25.768833 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=2, regularizer=(name:sparse_phi_regularizer, tau:1), regularizer=(name:sparse_theta_regularizer, tau:1), regularizer=(name:decorrelator_phi_regularizer, tau:1), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:38:25.770823  2356 processor.cc:158] Processor: start processing batch 86d6aaa3-81f9-4f94-9cd3-e92dfee99a74 into model nwt
+I0426 19:38:25.777823  2356 processor.cc:293] Processor: complete processing batch 86d6aaa3-81f9-4f94-9cd3-e92dfee99a74 into model nwt
+I0426 19:38:25.777823  2356 cuckoo_watch.h:45] 7ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 0ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 1ms in InferThetaAndUpdateNwtSparse; 1ms in CalculateScore(perplexity_score); 2ms in CalculateScore(sparsity_theta_score); 1ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:38:25.779822 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:38:25.779822 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:38:25.785821 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:38:25.785821 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:38:25.785821 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:38:25.785821 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:38:25.786819 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:38:25.786819 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=2, num_batches=1, token_weight=6016, token_weight_in_effect=6016
+I0426 19:38:25.787819 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:38:25.788820 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:38:25.790817 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:38:25.791824 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:38:25.794822 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 98 bytes...
+I0426 19:38:25.794822 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 72 bytes...
+I0426 19:38:25.795823 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 74 bytes...
+I0426 19:38:25.795823 13732 c_interface.cc:375] Pass 88bcb4de-22e0-4574-8edc-59408ce24e11 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.795823 13732 c_interface.cc:339] Disposing MasterComponent (id=16)...
+I0426 19:38:25.795823 13732 c_interface.cc:375] Pass 83ddf269-7164-4499-8500-275c05a0cb1e to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:38:25.796831 13732 c_interface.cc:339] Disposing MasterComponent (id=17)...
+I0426 19:38:25.796831  2356 processor.cc:66] Processor thread stopped
+I0426 19:38:25.796831  2356 processor.cc:67] Total number of processed batches: 2
+I0426 19:38:25.799829  8480 processor.cc:66] Processor thread stopped
+I0426 19:38:25.799829  8480 processor.cc:67] Total number of processed batches: 0
+I0426 19:38:25.800829 11392 processor.cc:66] Processor thread stopped
+I0426 19:38:25.800829 11392 processor.cc:67] Total number of processed batches: 0
+I0426 19:38:25.802827 10624 processor.cc:66] Processor thread stopped
+I0426 19:38:25.802827 10624 processor.cc:67] Total number of processed batches: 0
+I0426 19:38:25.803823 13732 c_interface.cc:339] Disposing MasterComponent (id=18)...
+I0426 19:40:19.414680 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:40:19.414680 13732 c_interface.cc:274] Creating MasterModel (id=19)...
+I0426 19:40:19.433938 13732 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+W0426 19:40:19.477066  4500 helpers.cc:231] File already exists: temp/target_folder\aaaaaa.batch
+I0426 19:40:19.483933 13732 c_interface.cc:375] Pass b2a66513-50c5-4deb-9644-742e27e527b2 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.483933 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=b2a66513-50c5-4deb-9644-742e27e527b2, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:40:19.484939 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:40:19.503072 13732 dictionary_operations.cc:331] Find 523 unique tokens in 2 items
+I0426 19:40:19.504947 13732 dictionary_operations.cc:611] Dictionary name='b2a66513-50c5-4deb-9644-742e27e527b2' contains entries: @default_class:523; 
+I0426 19:40:19.506942 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:40:19.506942 13732 c_interface.cc:274] Creating MasterModel (id=20)...
+I0426 19:40:19.506942 13732 c_interface.cc:375] Pass 18918263-a829-4398-8f59-2b24eaca079e to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.506942 13732 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=18918263-a829-4398-8f59-2b24eaca079e, data_path=temp/target_folder, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0426 19:40:19.507935 13732 dictionary_operations.cc:265] Found 1 batches in 'temp/target_folder' folder
+I0426 19:40:19.508931 13732 dictionary_operations.cc:331] Find 523 unique tokens in 2 items
+I0426 19:40:19.510931 13732 dictionary_operations.cc:611] Dictionary name='18918263-a829-4398-8f59-2b24eaca079e' contains entries: @default_class:523; 
+I0426 19:40:19.514943 13732 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=2, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0426 19:40:19.514943 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.514943 13732 c_interface.cc:274] Creating MasterModel (id=21)...
+I0426 19:40:19.515934 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.515934 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.515934 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.516935 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.516935 16344 processor.cc:58] Processor thread started
+I0426 19:40:19.516935 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.516935 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.516935 13052 processor.cc:58] Processor thread started
+I0426 19:40:19.516935  9776 processor.cc:58] Processor thread started
+I0426 19:40:19.516935 15496 processor.cc:58] Processor thread started
+I0426 19:40:19.517935 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=4, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.517935 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.517935 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.519070 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.519070 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.519070 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.519070 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:-0.005), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.519070 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.519070 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.519070 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:40:19.520071 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:-0.005), regularizer=(sparse_theta_regularizer:1.5), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.520071 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.520071 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.520071 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:40:19.520071 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:40:19.521071 13732 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=2, score_config_size=5, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=2, regularizer=(sparse_phi_regularizer:-0.005), regularizer=(sparse_theta_regularizer:1.5), regularizer=(decorrelator_phi_regularizer:0.005), reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0426 19:40:19.521071 13732 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0426 19:40:19.521071 13732 perplexity.cc:27] Perplexity score calculator created: model_type=1, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e
+I0426 19:40:19.521071 13732 instance.cc:232] Regularizer 'sparse_phi_regularizer' was cold-reconfigured
+I0426 19:40:19.521071 13732 instance.cc:226] Regularizer 'sparse_theta_regularizer' was cold-reconfigured
+I0426 19:40:19.521071 13732 instance.cc:244] Regularizer 'decorrelator_phi_regularizer' was cold-reconfigured
+I0426 19:40:19.521071 13732 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.521071 13732 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.521071 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:40:19.526069 13732 master_component.cc:699] InitializeModel() created matrix pwt with 2 topics and 523 tokens; 
+I0426 19:40:19.526069 13732 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=18918263-a829-4398-8f59-2b24eaca079e, topic_name_size=2, seed=-1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0426 19:40:19.533943 13732 master_component.cc:699] InitializeModel() created matrix nwt with 2 topics and 523 tokens; 
+I0426 19:40:19.533943 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 406 bytes...
+I0426 19:40:19.535071 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:40:19.535071 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=2, regularizer=(name:sparse_phi_regularizer, tau:-0.005), regularizer=(name:sparse_theta_regularizer, tau:1.5), regularizer=(name:decorrelator_phi_regularizer, tau:0.005), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:40:19.537979 15496 processor.cc:158] Processor: start processing batch 8161c78f-c0d3-42ee-af35-7eab614ad609 into model nwt
+I0426 19:40:19.543069 15496 processor.cc:293] Processor: complete processing batch 8161c78f-c0d3-42ee-af35-7eab614ad609 into model nwt
+I0426 19:40:19.543069 15496 cuckoo_watch.h:45] 6ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 1ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 1ms in InferThetaAndUpdateNwtSparse; 1ms in CalculateScore(perplexity_score); 0ms in CalculateScore(sparsity_theta_score); 1ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:40:19.545935 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:40:19.545935 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:40:19.549938 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:40:19.551074 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:40:19.551074 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:40:19.551074 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:40:19.551074 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:40:19.552073 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=2, num_batches=1, token_weight=6016, token_weight_in_effect=6016
+I0426 19:40:19.552073 13732 c_interface.cc:389] Pass FitOfflineMasterModelArgs, batch_filename_size=1, batch_weight_size=1, num_collection_passes=1, reset_nwt=yes to void (__cdecl artm::core::MasterComponent::*)(class artm::FitOfflineMasterModelArgs const & __ptr64) __ptr64
+I0426 19:40:19.552073 13732 master_component.cc:1458] ProcessBatchesArgs: nwt_target_name=nwt, batch_filename_size=1, batch_size=0, batch_weight_size=1, pwt_source_name=pwt, num_document_passes=2, regularizer=(name:sparse_phi_regularizer, tau:-0.005), regularizer=(name:sparse_theta_regularizer, tau:1.5), regularizer=(name:decorrelator_phi_regularizer, tau:0.005), reuse_theta=no, opt_for_avx=yes, predict_class_id=, reset_nwt=yes
+I0426 19:40:19.554939 15496 processor.cc:158] Processor: start processing batch 8161c78f-c0d3-42ee-af35-7eab614ad609 into model nwt
+I0426 19:40:19.559933 15496 processor.cc:293] Processor: complete processing batch 8161c78f-c0d3-42ee-af35-7eab614ad609 into model nwt
+I0426 19:40:19.559933 15496 cuckoo_watch.h:45] 5ms in ProcessBatch(temp/target_folder\aaaaaa.batch) [including 0ms in LoadMessage; 0ms in InitializeTheta; 0ms in CreateRegularizerAgents; 0ms in InitializeSparseNdw; 1ms in InferThetaAndUpdateNwtSparse; 1ms in CalculateScore(perplexity_score); 0ms in CalculateScore(sparsity_theta_score); 0ms in CalculateScore(^^^ItemsProcessedScore^^^); ]
+I0426 19:40:19.561045 13732 master_component.cc:1496] RegularizeModelArgs: rwt_target_name=rwt, pwt_source_name=pwt, nwt_source_name=nwt
+I0426 19:40:19.561045 13732 master_component.cc:1013] MasterComponent: start regularizing model pwt
+I0426 19:40:19.564940 13732 master_component.cc:1041] MasterComponent: complete regularizing model pwt
+I0426 19:40:19.564940 13732 master_component.cc:1509] NormalizeModelArgs: pwt_target_name=pwt, nwt_source_name=nwt, rwt_source_name=rwt
+I0426 19:40:19.564940 13732 master_component.cc:1045] MasterComponent: start normalizing model nwt
+I0426 19:40:19.564940 13732 master_component.cc:1084] MasterComponent: complete normalizing model nwt
+I0426 19:40:19.565933 13732 master_component.cc:1533] DisposeModel rwt
+I0426 19:40:19.565933 13732 master_component.cc:1112] FitOffline: ItemsProcessed, num_items=2, num_batches=1, token_weight=6016, token_weight_in_effect=6016
+I0426 19:40:19.566932  9776 processor.cc:74] No data in processing queue, waiting...
+I0426 19:40:19.566932 13052 processor.cc:74] No data in processing queue, waiting...
+I0426 19:40:19.566932 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:40:19.568936 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:40:19.569936 16344 processor.cc:74] No data in processing queue, waiting...
+I0426 19:40:19.569936 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:40:19.570933 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 1334 bytes...
+I0426 19:40:19.572942 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 98 bytes...
+I0426 19:40:19.572942 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 72 bytes...
+I0426 19:40:19.574079 13732 c_interface.cc:231] ArtmCopyRequestedMessage is copying 74 bytes...
+I0426 19:40:19.574079 13732 c_interface.cc:375] Pass b2a66513-50c5-4deb-9644-742e27e527b2 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.574079 13732 c_interface.cc:339] Disposing MasterComponent (id=19)...
+I0426 19:40:19.574079 13732 c_interface.cc:375] Pass 18918263-a829-4398-8f59-2b24eaca079e to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0426 19:40:19.574079 13732 c_interface.cc:339] Disposing MasterComponent (id=20)...
+I0426 19:40:19.577086 16344 processor.cc:66] Processor thread stopped
+I0426 19:40:19.577086 16344 processor.cc:67] Total number of processed batches: 0
+I0426 19:40:19.580940 13052 processor.cc:66] Processor thread stopped
+I0426 19:40:19.580940 13052 processor.cc:67] Total number of processed batches: 0
+I0426 19:40:19.585047  9776 processor.cc:66] Processor thread stopped
+I0426 19:40:19.585047  9776 processor.cc:67] Total number of processed batches: 0
+I0426 19:40:19.586067 15496 processor.cc:66] Processor thread stopped
+I0426 19:40:19.586067 15496 processor.cc:67] Total number of processed batches: 2
+I0426 19:40:19.586931 13732 c_interface.cc:339] Disposing MasterComponent (id=21)...

@@ -1,0 +1,60 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+Document
+{% endblock title %}
+
+{% block section %}
+<div class="container">
+    <h3 class="truncate">{{doc.name|capfirst}}</h3>
+    <p class="truncate">Author: {{doc.author|capfirst}}</p>
+    <p class="truncate">Loader: {{doc.user.username|capfirst}}</p>
+    <p class="truncate">Filename: {{filename|capfirst}}</p>
+    <p>Extension: {{file_ext}}</p>
+
+    {% if doc.is_parsed == False %}
+    <a id="parser-link" href="?parser=true" onclick="return disableLink(this);">Parser</a>
+    {% endif %}
+
+    {% if doc.is_parsed == True %}
+    <h4>Document details:</h4>
+    <ul class="tabs blue-grey darken-4">
+        <li class="tab col s3"><a class="active" href="#test1">Metadata</a></li>
+        <li class="tab col s3"><a href="#test2">Content</a></li>
+        <li class="tab col s3"><a href="#test3">Link</a></li>
+        <li class="tab col s3"><a href="#chart-1">Chart</a></li>
+    </ul>
+    <div class="row">
+        <div id="test1" class="col s12">
+            {% if pdf.metadata.metadata.title %}<p>Title: {{pdf.metadata.metadata.title}}</p>{% endif %}
+            {% if pdf.metadata.metadata.author %}<p>Author: {{pdf.metadata.metadata.author}}</p>{% endif %}
+            {% if pdf.metadata.metadata.format %}<p>Format: {{pdf.metadata.metadata.format}}</p>{% endif %}
+            {% if pdf.metadata.metadata.creator %}<p>Creator: {{pdf.metadata.metadata.creator}}</p>{% endif %}
+            {% if pdf.metadata.metadata.keywords %}<p>Keywords: {{pdf.metadata.metadata.keywords}}</p>{% endif %}
+            {% if pdf.metadata.metadata.producer %}<p>Producer: {{pdf.metadata.metadata.producer}}</p>{% endif %}
+            {% if pdf.metadata.pageCount %}<p>Page count: {{pdf.metadata.pageCount}}</p>{% endif %}
+            {% if count_words %}<p>Count words: {{count_words}}</p>{% endif %}
+        </div>
+        <div id="test2" class="col s12">
+            <ul>
+                {% for c in pdf.metadata.content %}
+                <li>{{c|join:", "}} </li>
+                {% endfor %}
+            </ul>
+            {% if pdf.metadata.content|length == 0 %}<p>Is empty</p>{% endif %}
+        </div>
+        <div id="test3" class="col s12">
+            <ul>
+                {% for link in pdf.metadata.result_links %}
+                <li>{{forloop.counter}}. <a href="{{link}}" target="_blank">{{link}}</a> </li>
+                {% endfor %}
+            </ul>
+            {% if pdf.metadata.result_links|length == 0 %}<p>Is empty</p>{% endif %}
+        </div>
+        <div id="chart-1">{{ output|safe }}</div>
+    </div>
+    {% endif %}
+</div>
+
+
+{% endblock section %}
