@@ -6,7 +6,7 @@ python manage.py startapp <name folder>
 pylint --generate-rcfile | out-file -encoding utf8 .pylintrc
 python manage.py livereload
 python manage.py clear_cache
-
+bigartm==0.9.2
 "python.linting.pylintArgs": [
     "--indent-string=\"  \""
 ]
