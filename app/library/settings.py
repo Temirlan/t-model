@@ -25,7 +25,7 @@ SECRET_KEY = 'f)#s=9_bi22&19wi__1j$6$k1tp-sz!vf51d3(1^aae@^+2efy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://parsertm.herokuapp.com/']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -150,4 +151,7 @@ INTERNAL_IPS = [
     '127.0.0.1',
 ]
 
+WHITENOISE_USE_FINDERS = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 django_heroku.settings(locals())
