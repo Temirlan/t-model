@@ -25,7 +25,7 @@ SECRET_KEY = 'f)#s=9_bi22&19wi__1j$6$k1tp-sz!vf51d3(1^aae@^+2efy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', 'parsertm.herokuapp.com']
 
 # Application definition
 
@@ -151,7 +151,4 @@ INTERNAL_IPS = [
     '127.0.0.1',
 ]
 
-WHITENOISE_USE_FINDERS = True
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 django_heroku.settings(locals())
