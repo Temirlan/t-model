@@ -25,7 +25,7 @@ SECRET_KEY = 'f)#s=9_bi22&19wi__1j$6$k1tp-sz!vf51d3(1^aae@^+2efy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://parsertm.herokuapp.com/']
 
 # Application definition
 
